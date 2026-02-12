@@ -1,0 +1,11 @@
+{
+  "name": "inspotgo-br",
+  "type": "module",
+  "version": "2.0.0",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "description": "Estrutura inicial do package.json para o Brasil",
+  "author": "Equipe Brasil",
+  "license": "MIT"
+}
