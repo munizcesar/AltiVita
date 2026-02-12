@@ -1,0 +1,7 @@
+# Force deployment trigger
+# This file forces Cloudflare Pages to redeploy and sync all files from /public folder
+# Including: favicon.svg, logo-icon.svg, logo-horizontal.svg
+
+Deploy timestamp: 2026-02-10T23:44:00-03:00
+Reason: Logo SVG files from commits 7ad1979, 27d2a06, 849b993 were not deployed
+Expected result: Logo with 3D target icon should appear in header

@@ -1,0 +1,260 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_CONFIG } from '../../config';
+
+const lastUpdated = 'February 8, 2026';
+---
+
+<BaseLayout
+  title="Terms of Service"
+  description="Terms of Service for InSpotGO. Read our terms and conditions for using the website."
+  noindex={false}
+>
+  <div class="container legal-page">
+    <h1>Terms of Service</h1>
+    <p class="last-updated">Last Updated: {lastUpdated}</p>
+    
+    <section>
+      <h2>1. Acceptance of Terms</h2>
+      <p>
+        By accessing and using {SITE_CONFIG.name}, you accept and agree to be bound by these Terms of Service. 
+        If you do not agree to these terms, please do not use our website.
+      </p>
+    </section>
+    
+    <section>
+      <h2>2. Description of Service</h2>
+      <p>
+        {SITE_CONFIG.name} provides product reviews, comparisons, buying guides, and recommendations for tech products, 
+        software, and SaaS tools. Our content is provided for informational purposes only.
+      </p>
+    </section>
+    
+    <section>
+      <h2>3. Affiliate Disclosure</h2>
+      <p>
+        <strong>Important:</strong> {SITE_CONFIG.name} participates in various affiliate programs, including Amazon Associates. 
+        This means we earn a commission when you purchase products through our affiliate links at no extra cost to you.
+      </p>
+      <p>
+        Our recommendations are based on genuine research and testing. The presence of affiliate links does not 
+        influence our editorial content or product reviews.
+      </p>
+    </section>
+    
+    <section>
+      <h2>4. Content Accuracy</h2>
+      <p>
+        We strive to provide accurate and up-to-date information. However:
+      </p>
+      <ul>
+        <li>Product information, prices, and availability may change</li>
+        <li>We make no guarantees about the completeness or accuracy of information</li>
+        <li>You should verify information before making purchase decisions</li>
+        <li>We are not responsible for any errors or omissions in our content</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>5. User Conduct</h2>
+      <p>When using our website, you agree NOT to:</p>
+      <ul>
+        <li>Violate any laws or regulations</li>
+        <li>Infringe on intellectual property rights</li>
+        <li>Post spam, malware, or harmful content</li>
+        <li>Attempt to gain unauthorized access to our systems</li>
+        <li>Use automated tools to scrape our content</li>
+        <li>Impersonate others or provide false information</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>6. Intellectual Property</h2>
+      <p>
+        All content on {SITE_CONFIG.name}, including text, images, logos, and graphics, is protected by copyright 
+        and trademark laws. You may:
+      </p>
+      <ul>
+        <li>View and print content for personal use</li>
+        <li>Share links to our articles</li>
+      </ul>
+      <p>You may NOT:</p>
+      <ul>
+        <li>Reproduce our content without permission</li>
+        <li>Use our content for commercial purposes</li>
+        <li>Modify or create derivative works</li>
+        <li>Remove copyright or attribution notices</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>7. Third-Party Links</h2>
+      <p>
+        Our website contains links to third-party websites and products. We are not responsible for:
+      </p>
+      <ul>
+        <li>The content of external websites</li>
+        <li>Products or services sold by third parties</li>
+        <li>Privacy practices of other websites</li>
+        <li>Transactions between you and third parties</li>
+      </ul>
+      <p>
+        Your use of third-party websites is at your own risk and subject to their terms and conditions.
+      </p>
+    </section>
+    
+    <section>
+      <h2>8. Disclaimer of Warranties</h2>
+      <p>
+        Our website and content are provided "AS IS" and "AS AVAILABLE" without any warranties, express or implied. 
+        We disclaim all warranties, including:
+      </p>
+      <ul>
+        <li>Merchantability and fitness for a particular purpose</li>
+        <li>Accuracy, reliability, or completeness of content</li>
+        <li>Uninterrupted or error-free service</li>
+        <li>Security of data transmission</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>9. Limitation of Liability</h2>
+      <p>
+        To the fullest extent permitted by law, {SITE_CONFIG.name} and its team shall not be liable for:
+      </p>
+      <ul>
+        <li>Direct, indirect, incidental, or consequential damages</li>
+        <li>Loss of profits, data, or business opportunities</li>
+        <li>Damages arising from use or inability to use our service</li>
+        <li>Purchases made through affiliate links</li>
+        <li>Reliance on information provided on our website</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>10. Indemnification</h2>
+      <p>
+        You agree to indemnify and hold harmless {SITE_CONFIG.name} from any claims, damages, liabilities, and expenses 
+        arising from your use of our website or violation of these terms.
+      </p>
+    </section>
+    
+    <section>
+      <h2>11. Changes to Terms</h2>
+      <p>
+        We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting. 
+        Your continued use of the website constitutes acceptance of the modified terms.
+      </p>
+    </section>
+    
+    <section>
+      <h2>12. Termination</h2>
+      <p>
+        We may terminate or suspend your access to our website at any time, without notice, for conduct that 
+        violates these terms or is harmful to other users or our business.
+      </p>
+    </section>
+    
+    <section>
+      <h2>13. Governing Law</h2>
+      <p>
+        These terms are governed by the laws of the United States. Any disputes shall be resolved in the courts 
+        of the appropriate jurisdiction.
+      </p>
+    </section>
+    
+    <section>
+      <h2>14. Contact Information</h2>
+      <p>
+        If you have questions about these terms, please contact us:
+      </p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:{SITE_CONFIG.contact.email}">{SITE_CONFIG.contact.email}</a></li>
+        <li><strong>Website:</strong> <a href="/contact">Contact Form</a></li>
+      </ul>
+    </section>
+    
+    <section class="jurisdiction">
+      <p><strong>Entity:</strong> {SITE_CONFIG.legalEntity}</p>
+      <p><strong>Founded:</strong> {SITE_CONFIG.foundedYear}</p>
+    </section>
+  </div>
+  
+  <style>
+    .legal-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    
+    .legal-page h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #1f2937;
+    }
+    
+    .last-updated {
+      color: #6b7280;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+    
+    .legal-page section {
+      margin-bottom: 2.5rem;
+    }
+    
+    .legal-page h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #374151;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+    }
+    
+    .legal-page h3 {
+      font-size: 1.25rem;
+      margin: 1.5rem 0 0.75rem;
+      color: #4b5563;
+    }
+    
+    .legal-page p {
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+    
+    .legal-page ul {
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .legal-page li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .legal-page a {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+    
+    .legal-page a:hover {
+      color: #1d4ed8;
+    }
+    
+    .jurisdiction {
+      background: #f9fafb;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      border-left: 4px solid #2563eb;
+    }
+    
+    @media (max-width: 768px) {
+      .legal-page h1 {
+        font-size: 2rem;
+      }
+      
+      .legal-page h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</BaseLayout>

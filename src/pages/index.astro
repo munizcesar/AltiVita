@@ -1,0 +1,432 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_CONFIG } from '../config';
+import CategoryCard from '../components/CategoryCard.astro';
+import { Target, BarChart3, Lightbulb, Flame, CheckCircle2, Search, Users, RefreshCw } from 'lucide-astro';
+---
+
+<BaseLayout>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>
+          <span class="hero-title">
+            <span class="hero-spot">InSpot</span><span class="hero-go">GO</span>
+          </span>
+          <span class="hero-slogan">
+            Spot the Best. <span class="go-emphasis">GO</span> Confident.
+          </span>
+        </h1>
+        <p class="hero-description">
+          {SITE_CONFIG.description}
+        </p>
+        <div class="hero-cta">
+          <a href="#categories" class="btn btn-primary">Explore Reviews</a>
+          <a href="/about" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <h2 class="section-title">What We Review</h2>
+      <p class="section-subtitle">
+        Expert reviews and guides to help you make confident decisions
+      </p>
+      
+      <div class="categories-grid">
+        <CategoryCard
+          title={SITE_CONFIG.categories.tech.name}
+          description={SITE_CONFIG.categories.tech.description}
+          icon={SITE_CONFIG.categories.tech.icon}
+          href="/tech"
+        />
+        <CategoryCard
+          title={SITE_CONFIG.categories.saas.name}
+          description={SITE_CONFIG.categories.saas.description}
+          icon={SITE_CONFIG.categories.saas.icon}
+          href="/saas"
+        />
+        <CategoryCard
+          title={SITE_CONFIG.categories.software.name}
+          description={SITE_CONFIG.categories.software.description}
+          icon={SITE_CONFIG.categories.software.icon}
+          href="/software"
+        />
+        <CategoryCard
+          title={SITE_CONFIG.categories.guides.name}
+          description={SITE_CONFIG.categories.guides.description}
+          icon={SITE_CONFIG.categories.guides.icon}
+          href="/guides"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Content Section -->
+  <section class="featured">
+    <div class="container">
+      <h2 class="section-title">Coming Soon</h2>
+      <p class="section-subtitle">
+        We're working on comprehensive reviews and buying guides. Check back soon!
+      </p>
+      
+      <div class="coming-soon-grid">
+        <div class="coming-soon-card">
+          <div class="card-icon">
+            <Target size={48} stroke-width={1.5} />
+          </div>
+          <h3>In-Depth Reviews</h3>
+          <p>Honest, detailed reviews of the latest tech products and software tools</p>
+        </div>
+        <div class="coming-soon-card">
+          <div class="card-icon">
+            <BarChart3 size={48} stroke-width={1.5} />
+          </div>
+          <h3>Comparison Guides</h3>
+          <p>Side-by-side comparisons to help you choose the right option</p>
+        </div>
+        <div class="coming-soon-card">
+          <div class="card-icon">
+            <Lightbulb size={48} stroke-width={1.5} />
+          </div>
+          <h3>Expert Tips</h3>
+          <p>Buying guides and how-tos from our team of tech enthusiasts</p>
+        </div>
+        <div class="coming-soon-card">
+          <div class="card-icon">
+            <Flame size={48} stroke-width={1.5} />
+          </div>
+          <h3>Best Deals</h3>
+          <p>Curated deals and discounts on top-rated products</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Trust Us Section -->
+  <section class="trust">
+    <div class="container">
+      <h2 class="section-title">Why Trust InSpotGO?</h2>
+      
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <CheckCircle2 size={56} stroke-width={1.5} />
+          </div>
+          <h3>Unbiased Reviews</h3>
+          <p>We provide honest opinions based on thorough research and testing</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <Search size={56} stroke-width={1.5} />
+          </div>
+          <h3>Thorough Research</h3>
+          <p>Every review is backed by extensive research and analysis</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <Users size={56} stroke-width={1.5} />
+          </div>
+          <h3>User-Focused</h3>
+          <p>We prioritize your needs, not just commission rates</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <RefreshCw size={56} stroke-width={1.5} />
+          </div>
+          <h3>Always Updated</h3>
+          <p>We regularly update content to reflect the latest information</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to Make Better Choices?</h2>
+      <p>Explore our reviews and guides to find the perfect products for your needs</p>
+      <a href="#categories" class="btn btn-cta">Get Started →</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ============================================
+     Hero Section - Dual Color Branding
+     ============================================ */
+  .hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  /* Dual-color logo in hero */
+  .hero-spot {
+    color: white;
+  }
+  
+  .hero-go {
+    color: var(--color-action-light);
+  }
+  
+  .hero-slogan {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+  }
+  
+  .go-emphasis {
+    color: var(--color-action-light);
+    font-weight: 700;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+  }
+  
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* ============================================
+     Buttons - Color Psychology
+     ============================================ */
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  /* Primary CTA - Orange (Action) */
+  .btn-primary {
+    background: var(--color-action);
+    color: white;
+    border-color: var(--color-action);
+  }
+  
+  .btn-primary:hover {
+    background: var(--color-action-dark);
+    border-color: var(--color-action-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+  }
+  
+  /* Outline button - White on gradient */
+  .btn-outline {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .btn-outline:hover {
+    background: white;
+    color: var(--color-primary);
+  }
+  
+  /* CTA section button - White with orange text */
+  .btn-cta {
+    background: white;
+    color: var(--color-action);
+    font-size: 1.2rem;
+    padding: 1.25rem 2.5rem;
+  }
+  
+  .btn-cta:hover {
+    background: #f7f7f7;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ============================================
+     Sections
+     ============================================ */
+  section {
+    padding: 4rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--color-text-light);
+    margin-bottom: 3rem;
+  }
+  
+  /* ============================================
+     Categories Grid
+     ============================================ */
+  .categories {
+    background: var(--color-bg-alt);
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  /* ============================================
+     Coming Soon Grid
+     ============================================ */
+  .coming-soon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .coming-soon-card {
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    border: 2px solid var(--color-border);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .coming-soon-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.1);
+  }
+  
+  .card-icon {
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coming-soon-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+  
+  .coming-soon-card p {
+    color: var(--color-text-light);
+    line-height: 1.6;
+  }
+  
+  /* ============================================
+     Trust Section
+     ============================================ */
+  .trust {
+    background: var(--color-bg-alt);
+  }
+  
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .trust-item {
+    text-align: center;
+  }
+  
+  .trust-icon {
+    color: var(--color-success);
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .trust-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+  
+  .trust-item p {
+    color: var(--color-text-light);
+    line-height: 1.6;
+  }
+  
+  /* ============================================
+     CTA Section
+     ============================================ */
+  .cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+  
+  /* ============================================
+     Responsive
+     ============================================ */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 4rem 0;
+    }
+    
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    
+    .hero-slogan {
+      font-size: 1.5rem;
+    }
+    
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .categories-grid,
+    .coming-soon-grid,
+    .trust-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
