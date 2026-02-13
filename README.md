@@ -1,60 +1,66 @@
-# InSpotGO - Spot the Best. Go Confident.
+# AltiVita - Encontre o Melhor. Vá com Confiança.
 
-> Expert reviews and guides for tech products, software, and SaaS tools.
+> Reviews especializados e guias sobre produtos tech, software e ferramentas SaaS para o mercado brasileiro.
 
-**Site**: https://inspotgo.com  
-**Status**: 🔄 In Development
-
----
-
-## 🚀 About
-
-InSpotGO is an affiliate review site helping people discover the best tech products, software, and SaaS tools through honest, comprehensive reviews and buying guides.
-
-### Categories
-- 💻 **Tech Products**: Laptops, smartphones, accessories, smart home
-- ☁️ **SaaS Tools**: Productivity, marketing, development, design
-- ⚙️ **Software**: Desktop applications and utilities
-- 📚 **Guides**: Buying guides, tutorials, comparisons
+**Site**: https://altivita.com.br  
+**Status**: 🔄 Em Desenvolvimento
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Sobre o AltiVita
+
+AltiVita é um hub de inteligência tecnológica que ajuda brasileiros a descobrir os melhores produtos de tecnologia, software e ferramentas SaaS através de reviews honestos, comparações detalhadas e guias de compra especializados.
+
+### Diferenciais para o Mercado Brasileiro
+- 💰 **Preços em Reais**: Conversões automáticas e comparações de preço no Brasil
+- 🇧🇷 **Disponibilidade Local**: Foco em produtos e serviços disponíveis no Brasil
+- 📦 **Impostos e Frete**: Considerações sobre taxas de importação e entrega
+- 🛡️ **Garantia Nacional**: Informações sobre suporte e garantia no Brasil
+- 💳 **Formas de Pagamento**: PIX, boleto e parcelamento sem juros
+
+### Categorias
+- 💻 **Produtos Tech**: Notebooks, smartphones, acessórios, smart home
+- ☁️ **Ferramentas SaaS**: Produtividade, marketing, desenvolvimento, design
+- ⚙️ **Software**: Aplicações desktop e utilitários
+- 📚 **Guias**: Guias de compra, tutoriais, comparações
+- 🎮 **Games & Entretenimento**: Hardware gaming, streaming, periféricos
+
+---
+
+## 🛠️ Stack Tecnológica
 
 - **Framework**: [Astro](https://astro.build/) (SSG)
-- **Language**: TypeScript
-- **Deployment**: Cloudflare Pages
+- **Linguagem**: TypeScript
+- **Deploy**: Cloudflare Pages
 - **Analytics**: Google Analytics 4
-- **CMS**: Decap CMS (Git-based)
+- **CMS**: Decap CMS (baseado em Git)
+- **Pagamentos**: Integração com programas de afiliados brasileiros
 
 ---
 
-## 📝 Quick Start
+## 📝 Início Rápido
 
-### Prerequisites
-- Node.js 18+ and npm
+### Pré-requisitos
+- Node.js 18+ e npm
 - Git
 
-### Installation
+### Instalação
 
 ```bash
-# Clone repository
-git clone https://github.com/munizcesar/InSpotGO-US.git
-cd InSpotGO-US
+# Clonar repositório
+git clone https://github.com/munizcesar/AltiVita.git
+cd AltiVita
 
-# Switch to feature branch
-git checkout feature/site-restructure
-
-# Install dependencies
+# Instalar dependências
 npm install
 
-# Run development server
+# Executar servidor de desenvolvimento
 npm run dev
 ```
 
-Site will be available at: http://localhost:4321
+O site estará disponível em: http://localhost:4321
 
-### Build for Production
+### Build para Produção
 
 ```bash
 npm run build
@@ -63,50 +69,57 @@ npm run preview
 
 ---
 
-## 📚 Documentation
+## 📚 Documentação
 
-- **[ROADMAP.md](./ROADMAP.md)** - Complete development roadmap (7 phases)
-- **[CONTENT-GUIDE.md](./CONTENT-GUIDE.md)** - Content creation workflow
-- **[src/config.ts](./src/config.ts)** - Site configuration
-
----
-
-## 🎯 Current Phase: Foundation
-
-### ✅ Completed
-- [x] Core configuration system
-- [x] SEO-optimized layouts
-- [x] Legal pages (FTC, GDPR, CCPA compliant)
-- [x] Category structure
-- [x] Homepage and category hubs
-- [x] Reusable components
-
-### 🔄 In Progress
-- [ ] Content creation (first 10 posts)
-- [ ] Google Analytics setup
-- [ ] Amazon Associates application
-
-### 📝 Next Steps
-1. Get Google Analytics Measurement ID
-2. Apply to Amazon Associates (need 10+ posts first)
-3. Create initial content
-4. Deploy to production
+- **[ROADMAP.md](./ROADMAP.md)** - Roadmap completo de desenvolvimento (7 fases)
+- **[CONTENT-GUIDE.md](./CONTENT-GUIDE.md)** - Workflow de criação de conteúdo
+- **[BRAZIL_STRATEGY.md](./BRAZIL_STRATEGY.md)** - Estratégia específica para o Brasil
+- **[BRANDBOOK.md](./BRANDBOOK.md)** - Identidade visual e guidelines
+- **[src/config.ts](./src/config.ts)** - Configuração central do site
 
 ---
 
-## 💾 Key Files
+## 🎯 Fase Atual: Fundação
+
+### ✅ Concluído
+- [x] Sistema de configuração central
+- [x] Layouts otimizados para SEO
+- [x] Páginas legais (LGPD, disclosure compliant)
+- [x] Estrutura de categorias
+- [x] Homepage e hubs de categorias
+- [x] Componentes reutilizáveis
+- [x] Adaptação para mercado brasileiro
+
+### 🔄 Em Progresso
+- [ ] Criação de conteúdo inicial (primeiros 10 posts)
+- [ ] Configuração Google Analytics
+- [ ] Aplicação para programas de afiliados brasileiros
+- [ ] Integração com APIs de preço (Zoom, Buscapé)
+
+### 📝 Próximos Passos
+1. Obter Measurement ID do Google Analytics
+2. Aplicar para Amazon Associates Brasil
+3. Cadastro em programas de afiliados nacionais (Lomadee, Awin)
+4. Criar conteúdo inicial (mínimo 10 posts)
+5. Deploy em produção
+6. Configurar domínio altivita.com.br
+
+---
+
+## 💾 Arquivos Principais
 
 ```
-InSpotGO-US/
+AltiVita/
 ├── src/
-│   ├── config.ts              # Central configuration
+│   ├── config.ts              # Configuração central
 │   ├── layouts/
-│   │   └── BaseLayout.astro   # Main layout with SEO
+│   │   └── BaseLayout.astro   # Layout principal com SEO
 │   ├── components/
-│   │   ├── SEO.astro           # SEO component
+│   │   ├── SEO.astro           # Componente SEO
 │   │   ├── GoogleAnalytics.astro
 │   │   ├── CategoryCard.astro
 │   │   ├── ProductCard.astro
+│   │   ├── PriceComparison.astro  # Comparador de preços BR
 │   │   └── AffiliateBanner.astro
 │   └── pages/
 │       ├── index.astro         # Homepage
@@ -114,111 +127,164 @@ InSpotGO-US/
 │       ├── saas/
 │       ├── software/
 │       ├── guides/
-│       ├── about.astro
-│       ├── contact.astro
-│       ├── affiliate-disclosure.astro
-│       ├── privacy.astro
-│       └── terms.astro
+│       ├── sobre.astro
+│       ├── contato.astro
+│       ├── divulgacao-afiliados.astro
+│       ├── privacidade.astro
+│       └── termos.astro
 ├── public/
 │   └── robots.txt
-├── astro.config.mjs       # Astro configuration
-├── ROADMAP.md             # Development plan
-└── CONTENT-GUIDE.md       # Content creation guide
+├── astro.config.mjs       # Configuração Astro
+├── ROADMAP.md             # Plano de desenvolvimento
+├── CONTENT-GUIDE.md       # Guia de criação de conteúdo
+└── BRAZIL_STRATEGY.md     # Estratégia Brasil
 ```
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ Configuração
 
-### Environment Variables
+### Variáveis de Ambiente
 
-Create a `.env` file (use `.env.example` as template):
+Crie um arquivo `.env` (use `.env.example` como template):
 
 ```env
 # Google Analytics
 PUBLIC_GA_ID=G-XXXXXXXXXX
 
-# Amazon Associates
-PUBLIC_AMAZON_TAG=your-tag-20
+# Amazon Associates Brasil
+PUBLIC_AMAZON_TAG=seu-tag-20
 
-# GitHub OAuth (for Decap CMS)
+# Lomadee (Afiliados BR)
+PUBLIC_LOMADEE_TOKEN=
+
+# APIs de Comparação de Preço
+PUBLIC_ZOOM_API_KEY=
+PUBLIC_BUSCAPE_TOKEN=
+
+# GitHub OAuth (para Decap CMS)
 GITHUB_CLIENT_ID=
 GITHUB_CLIENT_SECRET=
 ```
 
-### Update Configuration
+### Atualizar Configuração
 
-Edit `src/config.ts` to update:
-- Analytics IDs
-- Affiliate tags
-- Social media links
-- Contact information
+Edite `src/config.ts` para atualizar:
+- IDs de Analytics
+- Tags de afiliados
+- Links de redes sociais
+- Informações de contato
+- Configurações específicas do Brasil
 
 ---
 
-## 💰 Affiliate Programs
+## 💰 Programas de Afiliados
 
-### Planned Integrations
-- **Amazon Associates** - Tech products
-- **PartnerStack** - SaaS tools
-- **Impact.com** - Various merchants
-- **ShareASale** - Software companies
-- **CJ Affiliate** - Multiple networks
+### Integrações Brasileiras Planejadas
+- **Amazon Associates Brasil** - Produtos tech e eletrônicos
+- **Lomadee (Buscapé)** - Marketplace brasileiro
+- **Awin Brasil** - Rede de afiliados
+- **Hotmart** - Produtos digitais e cursos
+- **Eduzz** - Infoprodutos
+- **Monetizze** - Produtos digitais
+- **Shopee Afiliados** - E-commerce
+- **Mercado Livre** - Marketplace
+
+### Integrações Internacionais
+- **PartnerStack** - Ferramentas SaaS
+- **Impact.com** - Diversos merchants
+- **ShareASale** - Empresas de software
+- **CJ Affiliate** - Múltiplas redes
 
 ### Compliance
-- ✅ FTC-compliant disclosures
-- ✅ GDPR cookie consent
-- ✅ CCPA privacy controls
-- ✅ Clear affiliate disclaimers
+- ✅ Divulgação conforme LGPD
+- ✅ Consentimento de cookies
+- ✅ Política de privacidade brasileira
+- ✅ Disclaimers claros de afiliados
+- ✅ Transparência em links patrocinados
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deploy
 
 ### Cloudflare Pages
 
-1. Connect GitHub repository
-2. Build settings:
-   - **Build command**: `npm run build`
-   - **Build output directory**: `/dist`
-   - **Root directory**: `/`
-3. Add environment variables
+1. Conectar repositório GitHub
+2. Configurações de build:
+   - **Comando de build**: `npm run build`
+   - **Diretório de saída**: `/dist`
+   - **Diretório raiz**: `/`
+3. Adicionar variáveis de ambiente
 4. Deploy!
 
-### Custom Domain
+### Domínio Personalizado
 
-Add `inspotgo.com` in Cloudflare Pages settings.
-
----
-
-## 📝 Content Creation
-
-Follow the [CONTENT-GUIDE.md](./CONTENT-GUIDE.md) for:
-- Content structure templates
-- SEO optimization checklist
-- Affiliate link best practices
-- Image requirements
-- Publishing workflow
+Adicionar `altivita.com.br` nas configurações do Cloudflare Pages.
 
 ---
 
-## 🤝 Contributing
+## 📝 Criação de Conteúdo
 
-Currently a solo project. Contributions may be accepted in the future.
-
----
-
-## 📞 Support
-
-- Email: contact@inspotgo.com
-- GitHub Issues: [Report bugs or suggestions](https://github.com/munizcesar/InSpotGO-US/issues)
-
----
-
-## 📜 License
-
-MIT License - See LICENSE file for details.
+Siga o [CONTENT-GUIDE.md](./CONTENT-GUIDE.md) para:
+- Templates de estrutura de conteúdo
+- Checklist de otimização SEO
+- Boas práticas para links de afiliados
+- Requisitos de imagens
+- Workflow de publicação
+- Diretrizes de português brasileiro
 
 ---
 
-**Built with ❤️ by InSpotGO Team**
+## 🇧🇷 Estratégia Brasil
+
+Consulte [BRAZIL_STRATEGY.md](./BRAZIL_STRATEGY.md) para:
+- Análise do mercado brasileiro
+- Adaptações culturais necessárias
+- Parcerias locais
+- Estratégias de marketing digital
+- Compliance e regulamentação
+
+---
+
+## 🤝 Contribuindo
+
+Atualmente um projeto solo. Contribuições poderão ser aceitas no futuro.
+
+### Quer Contribuir?
+
+1. Fork o projeto
+2. Crie uma branch (`git checkout -b feature/NovaFuncionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
+5. Abra um Pull Request
+
+---
+
+## 📞 Suporte
+
+- Email: contato@altivita.com.br
+- GitHub Issues: [Reportar bugs ou sugestões](https://github.com/munizcesar/AltiVita/issues)
+
+---
+
+## 📜 Licença
+
+Licença MIT - Veja o arquivo LICENSE para detalhes.
+
+---
+
+## 🌟 Roadmap Resumido
+
+- **Fase 1**: ✅ Fundação (configuração base, estrutura, legal)
+- **Fase 2**: 🔄 Conteúdo Inicial (10 posts piloto)
+- **Fase 3**: Analytics e Monetização
+- **Fase 4**: Automação e Escala
+- **Fase 5**: Recursos Avançados
+- **Fase 6**: Comunidade
+- **Fase 7**: Expansão
+
+---
+
+**Construído com ❤️ pela Equipe AltiVita**
+
+*Versão brasileira do InSpotGO - Adaptado para o mercado brasileiro*
