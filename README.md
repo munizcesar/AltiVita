@@ -9,7 +9,11 @@
 
 ## 🚀 Sobre o AltiVita
 
-AltiVita é um hub de inteligência tecnológica que ajuda brasileiros a descobrir os melhores produtos de tecnologia, software e ferramentas SaaS através de reviews honestos, comparações detalhadas e guias de compra especializados.
+AltiVita é o hub de inteligência tecnológica criado especificamente para o mercado brasileiro. Ajudamos você a descobrir os melhores produtos de tecnologia, software e ferramentas SaaS através de reviews honestos, comparações detalhadas e guias de compra especializados - tudo pensado para a realidade do Brasil.
+
+### Nossa Missão
+
+Empoderar brasileiros a fazer escolhas tecnológicas inteligentes, considerando preços locais, disponibilidade, impostos, garantia e formas de pagamento nacionais. Somos o seu parceiro de confiança na jornada tecnológica.
 
 ### Diferenciais para o Mercado Brasileiro
 - 💰 **Preços em Reais**: Conversões automáticas e comparações de preço no Brasil
@@ -24,6 +28,18 @@ AltiVita é um hub de inteligência tecnológica que ajuda brasileiros a descobr
 - ⚙️ **Software**: Aplicações desktop e utilitários
 - 📚 **Guias**: Guias de compra, tutoriais, comparações
 - 🎮 **Games & Entretenimento**: Hardware gaming, streaming, periféricos
+
+---
+
+## 🎨 Nossa Identidade
+
+### Marca AltiVita
+
+**"Alti"** (Alto, Elevado) + **"Vita"** (Vida) = Crescimento através da tecnologia confiável
+
+- **Cores**: Azul Marinho (#0F2A44) para confiança tech premium + Verde GO (#2DBE60) para ação e crescimento
+- **Tom**: Profissional, honesto, brasileiro e orientado à ação
+- **Valores**: Transparência radical, expertise tech, foco no mercado brasileiro
 
 ---
 
@@ -89,6 +105,7 @@ npm run preview
 - [x] Homepage e hubs de categorias
 - [x] Componentes reutilizáveis
 - [x] Adaptação para mercado brasileiro
+- [x] Identidade visual própria (Azul Marinho + Verde GO)
 
 ### 🔄 Em Progresso
 - [ ] Criação de conteúdo inicial (primeiros 10 posts)
@@ -106,7 +123,7 @@ npm run preview
 
 ---
 
-## 💾 Arquivos Principais
+## 💾 Arquitetura do Projeto
 
 ```
 AltiVita/
@@ -248,7 +265,7 @@ Consulte [BRAZIL_STRATEGY.md](./BRAZIL_STRATEGY.md) para:
 
 ## 🤝 Contribuindo
 
-Atualmente um projeto solo. Contribuições poderão ser aceitas no futuro.
+Atualmente um projeto em desenvolvimento inicial. Contribuições serão bem-vindas no futuro.
 
 ### Quer Contribuir?
 
@@ -285,6 +302,19 @@ Licença MIT - Veja o arquivo LICENSE para detalhes.
 
 ---
 
-**Construído com ❤️ pela Equipe AltiVita**
+## 🎯 Por Que AltiVita?
 
-*Versão brasileira do InSpotGO - Adaptado para o mercado brasileiro*
+Em um mercado saturado de reviews genéricos e orientados apenas para o mercado internacional, o **AltiVita** nasceu para preencher uma lacuna crítica: oferecer análises tecnológicas que realmente consideram a realidade do consumidor brasileiro.
+
+### O Que Nos Torna Únicos
+
+- **Radical Transparência**: Mostramos pros E contras sempre, sem esconder limitações
+- **Expertise Tech Premium**: Análises profundas com conhecimento técnico real
+- **Brasil em Primeiro Lugar**: Cada review considera preço local, impostos, frete, garantia e formas de pagamento brasileiras
+- **Orientado à Ação**: Não apenas informamos, ajudamos você a tomar a decisão certa e avançar (GO!)
+
+---
+
+**Construído com ❤️ para o mercado brasileiro**
+
+**🇧🇷 AltiVita - Encontre o Melhor. Vá com Confiança.**
