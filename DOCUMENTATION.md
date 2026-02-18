@@ -1,344 +1,363 @@
-# InSpotGO - Complete Documentation
+# AltiVita — Documentação Completa
 
-**Version:** 2.0  
-**Last Updated:** February 9, 2026
-
----
-
-## 📖 Table of Contents
-
-1. [Getting Started](#getting-started)
-2. [Site Structure](#site-structure)
-3. [Configuration](#configuration)
-4. [Creating Content](#creating-content)
-5. [SEO Guidelines](#seo-guidelines)
-6. [Affiliate Links](#affiliate-links)
-7. [Deployment](#deployment)
-8. [Troubleshooting](#troubleshooting)
+**Versão:** 2.0  
+**Última Atualização:** Fevereiro de 2026
 
 ---
 
-## 🚀 Getting Started
+## 📖 Índice
 
-### Prerequisites
-- Node.js 18+ installed
-- Git installed
-- GitHub account
-- Text editor (VS Code recommended)
+1. [Começando](#começando)
+2. [Estrutura do Site](#estrutura-do-site)
+3. [Configuração](#configuração)
+4. [Criando Conteúdo](#criando-conteúdo)
+5. [Diretrizes de SEO](#diretrizes-de-seo)
+6. [Links de Afiliados](#links-de-afiliados)
+7. [Deploy](#deploy)
+8. [Solução de Problemas](#solução-de-problemas)
 
-### Installation
+---
+
+## 🚀 Começando
+
+### Pré-requisitos
+- Node.js 18+ instalado
+- Git instalado
+- Conta no GitHub
+- Editor de código (VS Code recomendado)
+
+### Instalação
 
 ```bash
-# Clone repository
-git clone https://github.com/munizcesar/InSpotGO-US.git
-cd InSpotGO-US
+# Clonar repositório
+git clone https://github.com/munizcesar/AltiVita.git
+cd AltiVita
 
-# Install dependencies
+# Instalar dependências
 npm install
 
-# Run development server
+# Iniciar servidor de desenvolvimento
 npm run dev
 ```
 
-Site will be available at: `http://localhost:4321`
+O site estará disponível em: `http://localhost:4321`
 
-### Development Commands
+### Comandos de Desenvolvimento
 
 ```bash
-npm run dev          # Start dev server
-npm run build        # Build for production
-npm run preview      # Preview production build
-npm run astro        # Run Astro CLI commands
+npm run dev          # Iniciar servidor de desenvolvimento
+npm run build        # Build para produção
+npm run preview      # Pré-visualizar build de produção
+npm run astro        # Executar comandos da CLI Astro
 ```
 
 ---
 
-## 🗂️ Site Structure
+## 🗂️ Estrutura do Site
 
 ```
-InSpotGO-US/
-├── public/              # Static assets
-│   ├── admin/          # Decap CMS admin
-│   ├── images/         # Site images
+AltiVita/
+├── public/              # Arquivos estáticos
+│   ├── admin/           # Painel Decap CMS
+│   ├── images/          # Imagens do site
 │   └── favicon.ico
 │
 ├── src/
-│   ├── components/     # Reusable components
-│   ├── layouts/        # Page layouts
-│   ├── pages/          # Site pages (routes)
+│   ├── components/      # Componentes reutilizáveis
+│   ├── layouts/         # Layouts de página
+│   ├── pages/           # Páginas do site (rotas)
 │   │   ├── index.astro
-│   │   ├── about.astro
-│   │   ├── contact.astro
-│   │   ├── tech/       # Tech category
-│   │   ├── saas/       # SaaS category
-│   │   ├── software/   # Software category
-│   │   ├── guides/     # Guides category
-│   │   └── legal/      # Legal pages
+│   │   ├── sobre.astro
+│   │   ├── contato.astro
+│   │   ├── tech/        # Categoria Tech
+│   │   ├── saas/        # Categoria SaaS
+│   │   ├── software/    # Categoria Software
+│   │   ├── guias/       # Categoria Guias
+│   │   ├── games/       # Categoria Games
+│   │   └── legal/       # Páginas legais (LGPD)
 │   │
-│   ├── content/        # Markdown content
-│   ├── styles/         # Global styles
-│   └── config.ts       # Site configuration
+│   ├── content/         # Conteúdo em Markdown
+│   ├── styles/          # Estilos globais
+│   └── config.ts        # Configuração central do site
 │
-├── astro.config.mjs    # Astro config
-├── package.json        # Dependencies
-├── ROADMAP.md         # Development roadmap
-└── README.md          # Project readme
+├── astro.config.mjs     # Configuração Astro
+├── package.json         # Dependências
+├── ROADMAP.md           # Roadmap de desenvolvimento
+└── README.md            # Documentação principal
 ```
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ Configuração
 
-### Main Config File: `src/config.ts`
+### Arquivo Principal de Configuração: `src/config.ts`
 
-This is the central configuration file. Update this file with your details:
+Este é o arquivo de configuração central. Atualize-o com seus dados:
 
 ```typescript
 export const SITE = {
-  name: 'InSpotGO',
-  url: 'https://inspotgo.com',
-  email: 'contact@inspotgo.com', // UPDATE THIS
-  // ... more settings
+  name: 'AltiVita',
+  url: 'https://altivita.com.br',
+  email: 'contato@altivita.com.br', // ATUALIZAR
+  // ... mais configurações
 };
 
 export const ANALYTICS = {
-  measurementId: '', // ADD YOUR GA4 ID
+  measurementId: '', // ADICIONAR SEU ID GA4
 };
 
 export const AFFILIATES = {
   amazon: {
-    enabled: false, // Set true when approved
-    associateId: '', // ADD YOUR AMAZON ID
+    enabled: false, // Definir true quando aprovado
+    associateId: '', // ADICIONAR SEU ID AMAZON
+  },
+  lomadee: {
+    enabled: false,
+    token: '', // ADICIONAR TOKEN LOMADEE
   },
 };
 ```
 
-### Environment Variables
+### Variáveis de Ambiente
 
-Create `.env` file in root:
+Crie o arquivo `.env` na raiz (use `.env.example` como base):
 
 ```env
-# GitHub OAuth (for Decap CMS)
-GITHUB_CLIENT_ID=your_client_id
-GITHUB_CLIENT_SECRET=your_client_secret
+# GitHub OAuth (para Decap CMS)
+GITHUB_CLIENT_ID=seu_client_id
+GITHUB_CLIENT_SECRET=seu_client_secret
 
 # Analytics
 PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 
-# Affiliate IDs
-AMAZON_ASSOCIATE_ID=yourname-20
+# Amazon Associates Brasil
+AMAZON_ASSOCIATE_ID=altivita-20
+
+# Lomadee (Afiliados BR)
+PUBLIC_LOMADEE_TOKEN=
+
+# APIs de Preço
+PUBLIC_ZOOM_API_KEY=
+PUBLIC_BUSCAPE_TOKEN=
 ```
 
 ---
 
-## ✍️ Creating Content
+## ✍️ Criando Conteúdo
 
-### Method 1: Using Decap CMS (Easiest)
+### Método 1: Usando o Decap CMS (Mais Fácil)
 
-1. Go to: `https://yoursite.com/admin`
-2. Login with GitHub
-3. Click "New Post"
-4. Fill in the fields
-5. Click "Publish"
+1. Acesse: `https://altivita.com.br/admin`
+2. Faça login com o GitHub
+3. Clique em "Novo Post"
+4. Preencha os campos
+5. Clique em "Publicar"
 
-### Method 2: Manually Creating Files
+### Método 2: Criando Arquivos Manualmente
 
-#### Product Review
+#### Review de Produto
 
-Create file: `src/content/posts/product-name-review.md`
+Crie o arquivo: `src/content/posts/nome-produto-review.md`
 
 ```markdown
 ---
-title: "Product Name Review 2026: Is It Worth It?"
-description: "Detailed review of Product Name including features, pros, cons, and pricing."
-date: 2026-02-09
-category: tech
-tags: [laptops, review, 2026]
-author: InSpotGO Team
-featuredImage: /images/product-name.jpg
-rating: 4.5
-affiliateLink: https://amazon.com/...
-price: $999
+title: "Review [Produto] 2026: Vale a Pena Comprar?"
+description: "Review detalhado do [Produto] com características, prós, contras e preço no Brasil."
+data: 2026-02-17
+categoria: tech
+tags: [notebooks, review, 2026]
+autor: Equipe AltiVita
+imagemDestaque: /images/nome-produto.jpg
+avaluacao: 4.5
+linkAfiliado: https://www.amazon.com.br/...
+preco: R$ 3.499
 ---
 
-## Introduction
+## Introdução
 
-Your content here...
+Seu conteúdo aqui...
 
-## Key Features
+## Principais Características
 
-- Feature 1
-- Feature 2
+- Característica 1
+- Característica 2
 
-## Pros & Cons
+## Prós e Contras
 
-### Pros
+### Prós
 - Pro 1
 - Pro 2
 
-### Cons
-- Con 1
-- Con 2
+### Contras
+- Contra 1
+- Contra 2
 
-## Final Verdict
+## Veredicto Final
 
-Your conclusion...
+Sua conclusão...
 ```
 
 ---
 
-## 🔍 SEO Guidelines
+## 🔍 Diretrizes de SEO
 
-### Every Page Must Have:
+### Cada Página Deve Ter:
 
-1. **Title Tag** (50-60 characters)
-   - Include main keyword
-   - Brand name at end
-   - Example: "Best Laptops 2026: Top 10 Picks | InSpotGO"
+1. **Tag de Título** (50-60 caracteres)
+   - Incluir palavra-chave principal em PT-BR
+   - Nome da marca no final
+   - Exemplo: "Melhores Notebooks 2026: Top 10 Opções | AltiVita"
 
-2. **Meta Description** (150-160 characters)
-   - Compelling summary
-   - Include CTA
-   - Example: "Discover the best laptops of 2026. Expert reviews, comparisons, and buying guides to help you choose right. Read now!"
+2. **Meta Descrição** (150-160 caracteres)
+   - Resumo atraente em português
+   - Incluir CTA
+   - Exemplo: "Descubra os melhores notebooks de 2026. Reviews especializados, comparações e guias de compra para o Brasil. Leia agora!"
 
-3. **URL Structure**
-   - Use hyphens, not underscores
-   - Keep short and descriptive
-   - Include main keyword
-   - Good: `/tech/best-laptops-2026`
-   - Bad: `/p?id=123&cat=tech`
+3. **Estrutura de URL**
+   - Usar hífens, não sublinhados
+   - Manter curta e descritiva em PT-BR
+   - Incluir palavra-chave principal
+   - Bom: `/tech/melhores-notebooks-2026`
+   - Ruim: `/p?id=123&cat=tech`
 
-4. **Headings (H1-H6)**
-   - One H1 per page (page title)
-   - Use H2 for main sections
-   - Use H3 for subsections
-   - Include keywords naturally
+4. **Cabeçalhos (H1-H6)**
+   - Um H1 por página (título)
+   - H2 para seções principais
+   - H3 para subseções
+   - Incluir palavras-chave naturalmente
 
-5. **Images**
-   - Descriptive file names: `best-laptop-2026.jpg`
-   - Alt text with keywords
-   - Compress before uploading
-   - Use WebP format when possible
+5. **Imagens**
+   - Nomes de arquivo descritivos: `melhor-notebook-2026.jpg`
+   - Texto alternativo (alt) com palavras-chave em PT-BR
+   - Comprimir antes de enviar
+   - Usar formato WebP quando possível
 
-### Internal Linking
+### Links Internos
 
-- Link to related articles
-- Use descriptive anchor text
-- 2-5 internal links per article
-- Link from old content to new content
+- Linkar para artigos relacionados
+- Usar texto âncora descritivo em português
+- 2-5 links internos por artigo
+- Linkar de conteúdo antigo para novo
 
-### External Linking
+### Links Externos
 
-- Link to authoritative sources
-- Open in new tab
-- Use `rel="nofollow"` for affiliate links
+- Linkar para fontes confiáveis
+- Abrir em nova aba
+- Usar `rel="nofollow"` para links de afiliados
 
 ---
 
-## 💰 Affiliate Links
+## 💰 Links de Afiliados
 
-### FTC Compliance (REQUIRED)
+### Conformidade LGPD (OBRIGATÓRIO)
 
-**Every page with affiliate links must include:**
+**Toda página com links de afiliados deve incluir:**
 
 ```html
-<div class="affiliate-disclosure">
-  <p><strong>Disclosure:</strong> As an Amazon Associate, InSpotGO earns 
-  from qualifying purchases. This means we may earn a commission if you 
-  click through and make a purchase, at no additional cost to you.</p>
+<div class="divulgacao-afiliados">
+  <p><strong>Divulgação:</strong> Este site participa de programas de afiliados. 
+  Isso significa que podemos receber uma comissão se você clicar e realizar 
+  uma compra, sem custo adicional para você. Saiba mais na nossa 
+  <a href="/divulgacao-afiliados">Página de Divulgação</a>.</p>
 </div>
 ```
 
-### Creating Affiliate Links
+### Criando Links de Afiliados
 
-#### Amazon Associates
+#### Amazon Associates Brasil
 
-1. Get product link from Amazon
-2. Add your Associate ID: `?tag=yourname-20`
-3. Use link builder: https://affiliate-program.amazon.com/home/tools
+1. Obter link do produto na Amazon.com.br
+2. Adicionar seu ID de associado: `?tag=altivita-20`
+3. Usar o construtor de links: https://associados.amazon.com.br/home/tools
 
-Example:
+Exemplo:
 ```
-https://amazon.com/dp/B08XYZ123?tag=yourname-20
+https://www.amazon.com.br/dp/B08XYZ123?tag=altivita-20
 ```
 
-#### Best Practices
+#### Boas Práticas
 
-- ✅ Use descriptive link text: "Check price on Amazon"
-- ❌ Don't use: "Click here"
-- ✅ Add `rel="nofollow sponsored"` to affiliate links
-- ✅ Update prices regularly
-- ✅ Disclose clearly and prominently
+- ✅ Usar texto descritivo: "Ver preço na Amazon" ou "Comprar no Mercado Livre"
+- ❌ Não usar: "Clique aqui"
+- ✅ Adicionar `rel="nofollow sponsored"` aos links de afiliados
+- ✅ Atualizar preços em Reais regularmente (com data de consulta)
+- ✅ Divulgar claramente e de forma proeminente
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deploy
 
 ### Cloudflare Pages
 
-Site deploys automatically on push to `main` branch.
+O site faz deploy automaticamente a cada push para a branch `main`.
 
-**Build settings:**
+**Configurações de build:**
 ```
-Build command: npm run build
-Output directory: dist
-Node version: 18
+Comando de build: npm run build
+Diretório de saída: dist
+Versão do Node: 18
 ```
 
-**Environment variables to set in Cloudflare:**
+**Variáveis de ambiente a definir no Cloudflare:**
 - `GITHUB_CLIENT_ID`
 - `GITHUB_CLIENT_SECRET`
 - `PUBLIC_GA_MEASUREMENT_ID`
+- `PUBLIC_LOMADEE_TOKEN`
 
-### Custom Domain Setup
+### Configuração de Domínio Personalizado
 
-1. Go to Cloudflare Pages → Your site → Custom domains
-2. Add `inspotgo.com`
-3. Update DNS records:
+1. Vá em Cloudflare Pages → Seu site → Domínios personalizados
+2. Adicione `altivita.com.br`
+3. Atualize os registros DNS:
    ```
-   CNAME @ yoursite.pages.dev
+   CNAME @ altivita.pages.dev
    ```
 
 ---
 
-## 🐛 Troubleshooting
+## 🐛 Solução de Problemas
 
-### Common Issues
+### Problemas Comuns
 
-**Issue: Admin panel not working**
-- Check GitHub OAuth setup
-- Verify callback URL: `https://yoursite.com/api/callback`
-- Check browser console for errors
+**Problema: Painel admin não funciona**
+- Verificar configuração do OAuth do GitHub
+- Verificar URL de callback: `https://altivita.com.br/api/callback`
+- Verificar console do navegador para erros
 
-**Issue: Images not showing**
-- Verify file path starts with `/images/`
-- Check file exists in `public/images/`
-- Clear browser cache
+**Problema: Imagens não aparecem**
+- Verificar se o caminho do arquivo começa com `/images/`
+- Verificar se o arquivo existe em `public/images/`
+- Limpar cache do navegador
 
-**Issue: Affiliate links not tracking**
-- Verify Associate ID is correct
-- Check link format
-- Test in incognito mode
+**Problema: Links de afiliados não rastreando**
+- Verificar se o ID de associado está correto
+- Verificar formato do link
+- Testar em modo anônimo (aba privada)
 
-**Issue: Site not updating**
-- Check Cloudflare Pages build logs
-- Verify push to correct branch
-- Clear Cloudflare cache
+**Problema: Site não atualizando**
+- Verificar logs de build no Cloudflare Pages
+- Confirmar push para a branch correta
+- Limpar cache do Cloudflare
 
-### Getting Help
+### Obtendo Ajuda
 
-- Check console for errors: `F12` → Console tab
-- Review build logs in Cloudflare Pages
-- Check Astro documentation: https://docs.astro.build
+- Verificar console para erros: `F12` → Aba Console
+- Revisar logs de build no Cloudflare Pages
+- Verificar documentação do Astro: https://docs.astro.build/pt-br/
 
 ---
 
-## 📞 Support Resources
+## 📞 Recursos de Suporte
 
 - **Astro Discord:** https://astro.build/chat
-- **Cloudflare Community:** https://community.cloudflare.com
-- **GitHub Issues:** https://github.com/munizcesar/InSpotGO-US/issues
+- **Comunidade Cloudflare:** https://community.cloudflare.com
+- **GitHub Issues:** https://github.com/munizcesar/AltiVita/issues
+- **Email:** contato@altivita.com.br
 
 ---
 
-**Remember:** Document everything you do. Future you will thank you! 🙏
+**Lembre-se:** Documente tudo que você fizer. O seu eu do futuro vai agradecer! 🙏
+
+---
+
+**🇧🇷 AltiVita — Encontre o Melhor. Vá com Confiança.**
