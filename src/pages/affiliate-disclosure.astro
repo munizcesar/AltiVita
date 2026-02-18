@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SITE_CONFIG } from '../config';
+import { SITE_CONFIG, getAffiliateDisclaimer } from '../config';
 ---
 
 <BaseLayout
@@ -30,8 +30,8 @@ import { SITE_CONFIG } from '../config';
       
       <h3>Amazon Associates Program</h3>
       <p>
-        {SITE_CONFIG.affiliates.amazon.disclaimer} We are a participant in the Amazon Services LLC 
-        Associates Program, an affiliate advertising program designed to provide a means for sites 
+        {getAffiliateDisclaimer('amazonBR')} We are a participant in the Amazon Services LLC
+        Associates Program, an affiliate advertising program designed to provide a means for sites
         to earn advertising fees by advertising and linking to Amazon.com and affiliated sites.
       </p>
       
