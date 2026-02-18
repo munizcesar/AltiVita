@@ -3,19 +3,19 @@ import "../styles/global.css";
 ---
 <header class="header" role="banner">
   <div class="container container-flex">
-    <a href="/" class="logo-link" aria-label="InSpotGO home">
-      <!-- Icon + name on mobile; full horizontal logo on desktop -->
-      <img src="/logo-horizontal.png?v=3" alt="InSpotGO" class="logo-desktop" height="50">
+    <a href="/" class="logo-link" aria-label="AltiVita início">
+      <!-- Ícone + nome no mobile; logo horizontal no desktop -->
+      <img src="/logo-horizontal.png?v=3" alt="AltiVita" class="logo-desktop" height="50">
       <span class="logo-mobile-wrap">
         <img src="/logo-icon.png?v=3" alt="" class="logo-mobile-icon" height="32" width="32">
-        <span class="logo-mobile-text" aria-hidden="true">InSpot<span class="logo-go">GO</span></span>
+        <span class="logo-mobile-text" aria-hidden="true">Alti<span class="logo-vita">Vita</span></span>
       </span>
     </a>
 
-    <!-- Mobile Menu Toggle Button -->
+    <!-- Botão do Menu Mobile -->
     <button
       class="mobile-menu-toggle"
-      aria-label="Toggle navigation menu"
+      aria-label="Alternar menu de navegação"
       aria-expanded="false"
       id="mobile-menu-toggle"
     >
@@ -24,14 +24,14 @@ import "../styles/global.css";
       <span class="hamburger"></span>
     </button>
 
-    <!-- Navigation -->
-    <nav aria-label="Main navigation" class="nav" id="main-nav">
+    <!-- Navegação -->
+    <nav aria-label="Navegação principal" class="nav" id="main-nav">
       <a href="/tech" class="nav-link">Tech</a>
       <a href="/saas" class="nav-link">SaaS</a>
       <a href="/software" class="nav-link">Software</a>
-      <a href="/guides" class="nav-link">Guides</a>
-      <a href="/about" class="nav-link">About</a>
-      <a href="/contact" class="nav-link">Contact</a>
+      <a href="/guides" class="nav-link">Guias</a>
+      <a href="/about" class="nav-link">Sobre</a>
+      <a href="/contact" class="nav-link">Contato</a>
     </nav>
   </div>
 </header>
@@ -56,7 +56,7 @@ import "../styles/global.css";
     margin: 0 auto;
   }
 
-  /* Logo Styles */
+  /* Estilos do Logo */
   .logo-link {
     text-decoration: none;
     display: flex;
@@ -76,7 +76,7 @@ import "../styles/global.css";
     width: auto;
   }
 
-  /* Mobile logo (icon + text) */
+  /* Logo mobile (ícone + texto) */
   .logo-mobile-wrap {
     display: none;
     align-items: center;
@@ -90,7 +90,7 @@ import "../styles/global.css";
   }
 
   .logo-mobile-text {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 1.1rem;
     letter-spacing: -0.02em;
     color: var(--color-primary);
@@ -98,11 +98,12 @@ import "../styles/global.css";
     user-select: none;
   }
 
-  .logo-go {
+  .logo-vita {
     color: var(--color-action);
+    font-weight: 700;
   }
 
-  /* Mobile Menu Toggle Button */
+  /* Botão do Menu Mobile */
   .mobile-menu-toggle {
     display: none;
     flex-direction: column;
@@ -131,7 +132,7 @@ import "../styles/global.css";
     transform-origin: center;
   }
 
-  /* Hamburger Animation */
+  /* Animação Hamburger */
   .mobile-menu-toggle.active .hamburger:nth-child(1) {
     transform: translateY(0.6rem) rotate(45deg);
   }
@@ -144,7 +145,7 @@ import "../styles/global.css";
     transform: translateY(-0.6rem) rotate(-45deg);
   }
 
-  /* Navigation */
+  /* Navegação */
   .nav {
     display: flex;
     align-items: center;
@@ -167,19 +168,19 @@ import "../styles/global.css";
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--color-primary);
+    background: var(--color-action);
     transition: width 0.3s ease;
   }
 
   .nav-link:hover {
-    color: var(--color-primary);
+    color: var(--color-action);
   }
 
   .nav-link:hover::after {
     width: 100%;
   }
 
-  /* Responsive */
+  /* Responsivo */
   @media (max-width: 768px) {
     .container-flex {
       padding: 0.75rem 1rem;
@@ -193,12 +194,12 @@ import "../styles/global.css";
       display: inline-flex;
     }
 
-    /* Show hamburger button */
+    /* Mostrar botão hamburger */
     .mobile-menu-toggle {
       display: flex;
     }
 
-    /* Mobile Navigation */
+    /* Navegação Mobile */
     .nav {
       position: fixed;
       top: 0;
