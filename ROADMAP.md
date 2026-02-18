@@ -1,316 +1,332 @@
-# 🗺️ InSpotGO Development Roadmap
+# 🗺️ AltiVita — Roadmap de Desenvolvimento
 
-> **Mission**: Build a professional affiliate review site for tech products, software, and SaaS tools targeting the US market.
+> **Missão**: Construir o principal hub de reviews de tecnologia para o mercado brasileiro, com conteúdo honesto, especializado e totalmente adaptado à realidade do consumidor brasileiro.
 
-**Last Updated**: February 9, 2026
-
----
-
-## 📊 Current Status: Phase 1 - Foundation
+**Última Atualização**: Fevereiro de 2026
 
 ---
 
-## Phase 1: Foundation & Structure ⏳ IN PROGRESS
-
-### 1.1 Core Configuration ✅ DONE
-- [x] Create centralized config file (`src/config.ts`)
-- [x] Define site metadata and branding
-- [x] Setup placeholder for affiliate programs
-- [x] Document roadmap and content guide
-
-### 1.2 Site Structure 🔄 NEXT
-- [ ] Create optimized directory structure
-- [ ] Setup category pages (Tech, SaaS, Software, Guides)
-- [ ] Create reusable layouts with SEO optimization
-- [ ] Add breadcrumbs for better navigation
-
-### 1.3 Legal Pages (US Compliance) 🔄 NEXT
-- [ ] Update Affiliate Disclosure (FTC compliant)
-- [ ] Update Privacy Policy (GDPR + CCPA compliant)
-- [ ] Update Terms of Service
-- [ ] Update Editorial Policy
-- [ ] Create About page
-- [ ] Create Contact page
-
-### 1.4 SEO Foundation 🔄 NEXT
-- [ ] Setup Google Analytics 4
-- [ ] Create sitemap.xml (automatic)
-- [ ] Setup robots.txt
-- [ ] Add Schema.org structured data
-- [ ] Setup meta tags system
-- [ ] Add Open Graph tags
-- [ ] Add Twitter Card tags
+## 📊 Status Atual: Fase 1 — Fundação
 
 ---
 
-## Phase 2: Content Infrastructure 📝 TODO
+## Fase 1: Fundação e Estrutura ⏳ EM ANDAMENTO
 
-### 2.1 Content System
-- [ ] Setup content collections (Astro Content Collections)
-- [ ] Create post/review templates
-- [ ] Add product schema
-- [ ] Create comparison template
-- [ ] Setup image optimization
+### 1.1 Configuração Central ✅ CONCLUÍDO
+- [x] Criar arquivo de configuração centralizado (`src/config.ts`)
+- [x] Definir metadados do site e identidade da marca
+- [x] Configurar placeholder para programas de afiliados
+- [x] Documentar roadmap e guia de conteúdo
+- [x] Identidade visual própria (Azul Marinho + Verde GO)
+- [x] Brandbook e guia de cores exclusivos
 
-### 2.2 Components
-- [ ] Product card component
-- [ ] Pros/Cons component
-- [ ] Comparison table component
-- [ ] CTA button with affiliate tracking
-- [ ] Rating/Review component
-- [ ] Affiliate disclaimer component (automatic)
+### 1.2 Estrutura do Site 🔄 PRÓXIMO
+- [ ] Criar estrutura de diretórios otimizada
+- [ ] Configurar páginas de categorias (Tech, SaaS, Software, Guias, Games)
+- [ ] Criar layouts reutilizáveis com otimização SEO
+- [ ] Adicionar breadcrumbs para melhor navegação
 
-### 2.3 Categories Structure
+### 1.3 Páginas Legais (Conformidade LGPD) 🔄 PRÓXIMO
+- [ ] Atualizar Divulgação de Afiliados (LGPD compliant)
+- [ ] Atualizar Política de Privacidade (LGPD)
+- [ ] Atualizar Termos de Uso
+- [ ] Atualizar Política Editorial
+- [ ] Criar página Sobre
+- [ ] Criar página Contato
+
+### 1.4 Fundação SEO 🔄 PRÓXIMO
+- [ ] Configurar Google Analytics 4
+- [ ] Criar sitemap.xml (automático)
+- [ ] Configurar robots.txt
+- [ ] Adicionar dados estruturados Schema.org
+- [ ] Configurar sistema de meta tags
+- [ ] Adicionar tags Open Graph
+- [ ] Adicionar tags Twitter Card
+
+---
+
+## Fase 2: Infraestrutura de Conteúdo 📝 PENDENTE
+
+### 2.1 Sistema de Conteúdo
+- [ ] Configurar coleções de conteúdo (Astro Content Collections)
+- [ ] Criar templates de posts/reviews
+- [ ] Adicionar schema de produto
+- [ ] Criar template de comparação
+- [ ] Configurar otimização de imagens
+
+### 2.2 Componentes
+- [ ] Componente de card de produto
+- [ ] Componente de Prós/Contras
+- [ ] Componente de tabela comparativa
+- [ ] Botão CTA com rastreamento de afiliados
+- [ ] Componente de avaliação/estrelas
+- [ ] Componente automático de disclaimer de afiliados
+- [ ] Comparador de preços em Reais
+- [ ] Badge de oferta com urgência
+
+### 2.3 Estrutura de Categorias
 ```
 tech/
-  ├── laptops/
+  ├── notebooks/
   ├── smartphones/
-  ├── accessories/
+  ├── acessorios/
   └── smart-home/
 
 saas/
-  ├── productivity/
+  ├── produtividade/
   ├── marketing/
-  ├── development/
+  ├── desenvolvimento/
   └── design/
 
 software/
   ├── windows/
   ├── mac/
-  └── utilities/
+  └── utilitarios/
 
-guides/
-  ├── buying-guides/
-  ├── how-to/
-  └── comparisons/
+guias/
+  ├── guias-de-compra/
+  ├── como-fazer/
+  └── comparacoes/
+
+games/
+  ├── hardware-gaming/
+  ├── perifericos/
+  └── streaming/
 ```
 
 ---
 
-## Phase 3: Affiliate Programs Setup 💰 TODO
+## Fase 3: Programas de Afiliados 💰 PENDENTE
 
-### 3.1 Amazon Associates
-- [ ] Apply to Amazon Associates program
-- [ ] Get approved and obtain Associate Tag
-- [ ] Add tag to config.ts
-- [ ] Test affiliate links
-- [ ] Setup link tracking
+### 3.1 Amazon Associates Brasil
+- [ ] Aplicar ao Amazon Associates Brasil
+- [ ] Obter aprovação e tag de associado
+- [ ] Adicionar tag ao config.ts
+- [ ] Testar links de afiliados
+- [ ] Configurar rastreamento de links
 
-**Requirements for Amazon approval:**
-- At least 10 quality posts published
-- Original content with product recommendations
-- Clear navigation and professional design
-- Proper affiliate disclosure
+**Requisitos para aprovação da Amazon:**
+- Mínimo 10 posts de qualidade publicados
+- Conteúdo original com recomendações de produtos
+- Navegação clara e design profissional
+- Divulgação de afiliados adequada (LGPD)
 
-### 3.2 SaaS Affiliate Programs
+### 3.2 Programas de Afiliados Brasileiros
 
-**PartnerStack:**
-- [ ] Research compatible SaaS companies
-- [ ] Apply to PartnerStack
-- [ ] Setup tracking
-- [ ] Document commission structure
+**Lomadee (Buscapé):**
+- [ ] Cadastro na plataforma Lomadee
+- [ ] Configurar rastreamento
+- [ ] Documentar estrutura de comissão
 
-**Impact.com:**
-- [ ] Apply to Impact marketplace
-- [ ] Select relevant brands
-- [ ] Integrate tracking
-- [ ] Test conversions
+**Awin Brasil:**
+- [ ] Aplicar ao marketplace Awin
+- [ ] Selecionar marcas relevantes
+- [ ] Integrar rastreamento
+- [ ] Testar conversões
 
-**Direct Programs to Consider:**
-- [ ] HubSpot Affiliate Program
-- [ ] Notion Affiliate Program
-- [ ] Canva Affiliate Program
-- [ ] Shopify Affiliate Program
-- [ ] ClickUp Affiliate Program
+**Plataformas Nacionais:**
+- [ ] Hotmart (produtos digitais e cursos)
+- [ ] Eduzz (infoprodutos)
+- [ ] Monetizze (produtos digitais)
+- [ ] Shopee Afiliados
+- [ ] Mercado Livre Afiliados
 
-### 3.3 Other Networks
-- [ ] ShareASale (many software companies)
-- [ ] CJ Affiliate (Commission Junction)
-- [ ] Rakuten Advertising
-- [ ] Awin
-
----
-
-## Phase 4: Content Creation 📚 TODO
-
-### 4.1 Initial Content (10 Posts for Amazon Approval)
-
-**Tech Category (4 posts):**
-1. "Best Laptops for Remote Work in 2026"
-2. "Top 5 Wireless Earbuds Under $100"
-3. "Smart Home Starter Kit: Essential Devices"
-4. "Budget vs Premium Smartphones: What's Worth It?"
-
-**SaaS Category (3 posts):**
-5. "Best Project Management Tools for Small Teams"
-6. "Email Marketing Software Comparison 2026"
-7. "Top Design Tools for Non-Designers"
-
-**Software Category (2 posts):**
-8. "Best Password Managers Reviewed"
-9. "Top Video Editing Software for Beginners"
-
-**Guide (1 post):**
-10. "How to Choose the Right Laptop: Complete Buying Guide"
-
-### 4.2 Content Calendar
-- [ ] Setup content calendar system
-- [ ] Plan 30-day content schedule
-- [ ] Plan 90-day content schedule
-- [ ] Identify seasonal content opportunities
+### 3.3 Programas Internacionais (SaaS)
+- [ ] PartnerStack (ferramentas SaaS)
+- [ ] Impact.com (merchants diversos)
+- [ ] ShareASale (empresas de software)
+- [ ] CJ Affiliate (múltiplas redes)
 
 ---
 
-## Phase 5: Traffic & Growth 📈 TODO
+## Fase 4: Criação de Conteúdo 📚 PENDENTE
 
-### 5.1 SEO Optimization
-- [ ] Keyword research for each category
-- [ ] Optimize existing posts
-- [ ] Build internal linking structure
-- [ ] Submit to Google Search Console
-- [ ] Setup Bing Webmaster Tools
-- [ ] Monitor rankings
+### 4.1 Conteúdo Inicial (10 Posts para Aprovação Amazon)
 
-### 5.2 Social Media
-- [ ] Create social media accounts
-  - [ ] Twitter/X
-  - [ ] Pinterest (great for product reviews)
-  - [ ] YouTube (video reviews)
+**Categoria Tech (4 posts):**
+1. "Melhores Notebooks para Trabalho Remoto em 2026"
+2. "Top 5 Fones de Ouvido sem Fio até R$ 500"
+3. "Kit Inicial de Smart Home: Dispositivos Essenciais"
+4. "Smartphones Intermediários vs Premium: Vale a Diferença de Preço?"
+
+**Categoria SaaS (3 posts):**
+5. "Melhores Ferramentas de Gestão de Projetos para Pequenas Equipes"
+6. "Comparativo de Software de E-mail Marketing 2026"
+7. "Melhores Ferramentas de Design para Não-Designers"
+
+**Categoria Software (2 posts):**
+8. "Melhores Gerenciadores de Senhas Testados e Avaliados"
+9. "Top Softwares de Edição de Vídeo para Iniciantes"
+
+**Guia (1 post):**
+10. "Como Escolher o Notebook Certo: Guia Completo de Compra para o Brasil"
+
+### 4.2 Calendário Editorial
+- [ ] Configurar sistema de calendário editorial
+- [ ] Planejar cronograma de 30 dias
+- [ ] Planejar cronograma de 90 dias
+- [ ] Identificar oportunidades de conteúdo sazonal (Black Friday BR, Dia das Mães, etc.)
+
+---
+
+## Fase 5: Tráfego e Crescimento 📈 PENDENTE
+
+### 5.1 Otimização SEO
+- [ ] Pesquisa de palavras-chave para cada categoria
+- [ ] Otimizar posts existentes
+- [ ] Construir estrutura de links internos
+- [ ] Submeter ao Google Search Console
+- [ ] Configurar Bing Webmaster Tools
+- [ ] Monitorar rankings
+
+### 5.2 Redes Sociais
+- [ ] Criar contas nas redes sociais
+  - [ ] Instagram (@altivita.br)
+  - [ ] YouTube (reviews em vídeo)
+  - [ ] TikTok (conteúdo rápido de tech)
   - [ ] LinkedIn
-- [ ] Setup sharing buttons
-- [ ] Create social media calendar
-- [ ] Plan content promotion strategy
+- [ ] Configurar botões de compartilhamento
+- [ ] Criar calendário de redes sociais
+- [ ] Planejar estratégia de promoção de conteúdo
 
-### 5.3 Email Marketing
-- [ ] Choose email service (ConvertKit, Mailchimp, etc)
-- [ ] Create lead magnet
-- [ ] Add newsletter signup forms
-- [ ] Create welcome email sequence
-- [ ] Plan weekly newsletter
-
----
-
-## Phase 6: Monetization & Analytics 💵 TODO
-
-### 6.1 Revenue Tracking
-- [ ] Setup affiliate dashboard tracking
-- [ ] Create revenue spreadsheet
-- [ ] Track click-through rates
-- [ ] Monitor conversion rates
-- [ ] A/B test CTAs
-
-### 6.2 Advanced Analytics
-- [ ] Setup Google Tag Manager
-- [ ] Track affiliate link clicks
-- [ ] Setup conversion goals
-- [ ] Create custom reports
-- [ ] Heat map analysis (Hotjar/Microsoft Clarity)
-
-### 6.3 Optimization
-- [ ] Analyze top-performing content
-- [ ] Update low-performing posts
-- [ ] Test different affiliate link placements
-- [ ] Optimize conversion funnels
-- [ ] Speed optimization
+### 5.3 E-mail Marketing
+- [ ] Escolher serviço de e-mail (RD Station, Mailchimp, etc.)
+- [ ] Criar isca digital (ex: "Guia de Compras Tech Sem Erro")
+- [ ] Adicionar formulários de inscrição na newsletter
+- [ ] Criar sequência de boas-vindas
+- [ ] Planejar newsletter semanal
 
 ---
 
-## Phase 7: Scaling 🚀 TODO
+## Fase 6: Monetização e Analytics 💵 PENDENTE
 
-### 7.1 Content Expansion
-- [ ] Hire freelance writers (optional)
-- [ ] Create content briefs
-- [ ] Expand to video content
-- [ ] Create downloadable resources
-- [ ] Build comparison tools
+### 6.1 Rastreamento de Receita
+- [ ] Configurar dashboard de afiliados
+- [ ] Criar planilha de receita
+- [ ] Rastrear taxas de clique (CTR)
+- [ ] Monitorar taxas de conversão
+- [ ] Testar CTAs com A/B test
 
-### 7.2 Advanced Features
-- [ ] Add site search
-- [ ] Create deal alerts
-- [ ] Build price tracking
-- [ ] Add user reviews (optional)
-- [ ] Create interactive tools
+### 6.2 Analytics Avançado
+- [ ] Configurar Google Tag Manager
+- [ ] Rastrear cliques em links de afiliados
+- [ ] Configurar metas de conversão
+- [ ] Criar relatórios personalizados
+- [ ] Análise de mapa de calor (Hotjar / Microsoft Clarity)
 
-### 7.3 Additional Revenue
-- [ ] Display ads (once traffic is sufficient)
-- [ ] Sponsored content (maintain transparency)
-- [ ] Digital products (guides, courses)
-- [ ] Consulting services
-
----
-
-## 📝 Documentation To Maintain
-
-- [x] ROADMAP.md (this file)
-- [x] CONTENT-GUIDE.md (how to create content)
-- [ ] STYLE-GUIDE.md (writing style and brand voice)
-- [ ] AFFILIATE-GUIDE.md (how to add affiliate links)
-- [ ] SEO-CHECKLIST.md (pre-publish checklist)
+### 6.3 Otimização
+- [ ] Analisar conteúdo de melhor desempenho
+- [ ] Atualizar posts de baixo desempenho
+- [ ] Testar diferentes posicionamentos de links de afiliados
+- [ ] Otimizar funis de conversão
+- [ ] Otimização de velocidade do site
 
 ---
 
-## 🎯 Key Milestones
+## Fase 7: Escala e Expansão 🚀 PENDENTE
 
-### Milestone 1: Site Launch ⏳
-- Complete Phase 1 & 2
-- Publish 10 quality posts
-- Apply to Amazon Associates
-- **Target**: Week 2-3
+### 7.1 Expansão de Conteúdo
+- [ ] Contratar redatores freelancers (opcional)
+- [ ] Criar briefings de conteúdo
+- [ ] Expandir para conteúdo em vídeo
+- [ ] Criar recursos para download
+- [ ] Construir ferramentas de comparação
 
-### Milestone 2: First Affiliate Revenue 💰
-- Get approved by Amazon
-- Join 2-3 SaaS programs
-- Reach 100 clicks/month
-- **Target**: Month 2
+### 7.2 Funcionalidades Avançadas
+- [ ] Adicionar busca no site
+- [ ] Criar alertas de ofertas
+- [ ] Construir rastreamento de preços (Zoom, Buscapé)
+- [ ] Adicionar avaliações de usuários (opcional)
+- [ ] Criar ferramentas interativas
 
-### Milestone 3: Sustainable Traffic 📊
-- 1,000 organic visitors/month
-- 50+ published posts
-- 5+ active affiliate programs
-- **Target**: Month 3-4
-
-### Milestone 4: Profitable Site 💵
-- $500+ monthly revenue
-- 5,000+ organic visitors/month
-- Email list of 500+ subscribers
-- **Target**: Month 6
+### 7.3 Receita Adicional
+- [ ] Anúncios display (quando o tráfego for suficiente)
+- [ ] Conteúdo patrocinado (com total transparência)
+- [ ] Produtos digitais (guias, cursos)
+- [ ] Serviços de consultoria
 
 ---
 
-## ⚠️ Important Notes
+## 📝 Documentação para Manter
 
-### Compliance Requirements:
-- ✅ Always include affiliate disclosure on pages with affiliate links
-- ✅ Follow FTC guidelines for endorsements
-- ✅ Be honest in reviews - trust is everything
-- ✅ CCPA/GDPR compliance for data collection
-- ✅ Proper privacy policy
-
-### Content Quality:
-- Focus on helping users make decisions
-- Original research and testing when possible
-- High-quality images (own photos or licensed)
-- Regular updates to keep content fresh
-- Fact-check everything
-
-### SEO Best Practices:
-- Target long-tail keywords
-- Focus on search intent
-- Build quality backlinks
-- Internal linking strategy
-- Mobile-first optimization
-- Fast page load times
+- [x] ROADMAP.md (este arquivo)
+- [x] CONTENT-GUIDE.md (como criar conteúdo)
+- [x] BRANDBOOK.md (identidade visual)
+- [x] COLOR-GUIDE.md (guia de cores)
+- [x] BRAZIL_STRATEGY.md (estratégia Brasil)
+- [ ] GUIA-AFILIADOS.md (como adicionar links de afiliados)
+- [ ] CHECKLIST-SEO.md (checklist pré-publicação)
 
 ---
 
-## 📞 Need Help?
+## 🎯 Marcos Principais
 
-Refer to:
-- `CONTENT-GUIDE.md` for content creation workflow
-- `src/config.ts` for updating site settings
-- Amazon Associates help: https://affiliate-program.amazon.com/help
-- FTC Disclosure Guidelines: https://www.ftc.gov/legal-library/browse/16-cfr-part-255
+### Marco 1: Lançamento do Site ⏳
+- Concluir Fases 1 e 2
+- Publicar 10 posts de qualidade
+- Aplicar ao Amazon Associates Brasil
+- **Meta**: Semana 2-3
+
+### Marco 2: Primeira Receita de Afiliados 💰
+- Aprovação pela Amazon Brasil
+- Ingressar em 2-3 programas de afiliados brasileiros
+- Alcançar 100 cliques/mês
+- **Meta**: Mês 2
+
+### Marco 3: Tráfego Sustentável 📊
+- 1.000 visitantes orgânicos/mês
+- 50+ posts publicados
+- 5+ programas de afiliados ativos
+- **Meta**: Meses 3-4
+
+### Marco 4: Site Lucrativo 💵
+- R$ 2.500+ de receita mensal
+- 5.000+ visitantes orgânicos/mês
+- Lista de e-mails com 500+ inscritos
+- **Meta**: Mês 6
 
 ---
 
-**Remember**: Building a successful affiliate site takes time. Focus on creating genuinely helpful content, and the revenue will follow. Stay consistent and keep learning! 🚀
+## ⚠️ Notas Importantes
+
+### Requisitos de Conformidade:
+- ✅ Sempre incluir divulgação de afiliados em páginas com links afiliados
+- ✅ Seguir diretrizes LGPD para dados dos usuários
+- ✅ Ser honesto nas reviews — a confiança é tudo
+- ✅ Política de privacidade e cookies adequada à legislação brasileira
+- ✅ Transparência total em links patrocinados
+
+### Qualidade do Conteúdo:
+- Foco em ajudar o usuário a tomar a decisão certa
+- Pesquisa original e testes reais quando possível
+- Imagens de alta qualidade (fotos próprias ou licenciadas)
+- Atualizações regulares para manter o conteúdo relevante
+- Verificar todas as informações antes de publicar
+- Sempre mencionar preços em Reais com data de consulta
+
+### Boas Práticas de SEO:
+- Focar em palavras-chave de cauda longa em português
+- Focar na intenção de busca do usuário brasileiro
+- Construir backlinks de qualidade
+- Estratégia de links internos
+- Otimização mobile-first
+- Tempos de carregamento rápidos
+
+---
+
+## 📞 Precisa de Ajuda?
+
+Consulte:
+- `CONTENT-GUIDE.md` para o fluxo de criação de conteúdo
+- `src/config.ts` para atualizar configurações do site
+- `BRANDBOOK.md` para diretrizes de identidade visual
+- Amazon Associates Brasil: https://associados.amazon.com.br
+- LGPD - Lei nº 13.709/2018: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+
+---
+
+**Lembre-se**: Construir um site de afiliados de sucesso leva tempo. Foque em criar conteúdo genuinamente útil para o consumidor brasileiro, e a receita virá como consequência. Seja consistente e continue aprendendo! 🚀
+
+---
+
+**🇧🇷 AltiVita — Encontre o Melhor. Vá com Confiança.**

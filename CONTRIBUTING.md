@@ -1,188 +1,191 @@
-# 🤝 Contributing to InSpotGO
+# 🤝 Contribuindo com o AltiVita
 
-## ⚠️ **CRITICAL: Documentation is LIVING**
+## ⚠️ **IMPORTANTE: A Documentação é VIVA**
 
-> **FOR AI ASSISTANTS & DEVELOPERS:**  
-> Every change to this project MUST update the living documentation in `/docs`
-
----
-
-## 📝 Documentation Update Rules
-
-### **MANDATORY UPDATES:**
-
-When you make changes, you **MUST** update:
-
-#### 🎨 **If Branding Changes:**
-```
-✅ Update: docs/BRANDING.md
-✅ Update: docs/CHANGELOG.md
-❌ NEVER delete previous versions
-✅ ALWAYS add new version to history
-```
-
-#### 🔧 **If Code/Features Change:**
-```
-✅ Update: docs/CHANGELOG.md
-✅ Add entry at TOP (not bottom)
-✅ Increment version number
-✅ Categorize: Added/Changed/Fixed/Removed
-```
-
-#### 📚 **If Adding New Docs:**
-```
-✅ Update: docs/README.md
-✅ Update: docs/CHANGELOG.md
-✅ Link from main README if relevant
-```
+> **PARA ASSISTENTES DE IA E DESENVOLVEDORES:**  
+> Toda alteração neste projeto DEVE atualizar a documentação viva em `/docs`
 
 ---
 
-## 🤖 For AI Assistants
+## 📝 Regras de Atualização de Documentação
 
-### **Before ANY code change:**
-1. Check if change affects branding → Update `docs/BRANDING.md`
-2. Check if change is production-worthy → Update `docs/CHANGELOG.md`
-3. Always preserve history → NEVER delete old versions
+### **ATUALIZAÇÕES OBRIGATÓRIAS:**
 
-### **Pattern to Follow:**
+Ao fazer alterações, você **DEVE** atualizar:
+
+#### 🎨 **Se a Identidade Visual Mudar:**
+```
+✅ Atualizar: docs/BRANDING.md
+✅ Atualizar: docs/CHANGELOG.md
+❌ NUNCA deletar versões anteriores
+✅ SEMPRE adicionar nova versão ao histórico
+```
+
+#### 🔧 **Se Código ou Funcionalidades Mudarem:**
+```
+✅ Atualizar: docs/CHANGELOG.md
+✅ Adicionar entrada no TOPO (não no final)
+✅ Incrementar número de versão
+✅ Categorizar: Adicionado/Alterado/Corrigido/Removido
+```
+
+#### 📚 **Se Adicionar Nova Documentação:**
+```
+✅ Atualizar: docs/README.md
+✅ Atualizar: docs/CHANGELOG.md
+✅ Linkar do README principal se relevante
+```
+
+---
+
+## 🤖 Para Assistentes de IA
+
+### **Antes de QUALQUER alteração de código:**
+1. Verificar se a alteração afeta a identidade visual → Atualizar `docs/BRANDING.md`
+2. Verificar se a alteração é relevante para produção → Atualizar `docs/CHANGELOG.md`
+3. Sempre preservar o histórico → NUNCA deletar versões antigas
+
+### **Padrão a Seguir:**
 ```bash
-# 1. Make change
-git commit -m "feat: new feature"
+# 1. Fazer a alteração
+git commit -m "feat: nova funcionalidade"
 
-# 2. Update CHANGELOG (REQUIRED!)
-git commit -m "docs: update changelog v1.x.x"
+# 2. Atualizar CHANGELOG (OBRIGATÓRIO!)
+git commit -m "docs: atualiza changelog v1.x.x"
 
-# 3. Update BRANDING if needed
-git commit -m "docs: update branding guide"
+# 3. Atualizar BRANDING se necessário
+git commit -m "docs: atualiza guia de identidade visual"
 ```
 
 ---
 
-## 👤 For Developers
+## 👤 Para Desenvolvedores
 
-### **Standard Workflow:**
+### **Fluxo de Trabalho Padrão:**
 
 ```bash
-# 1. Create feature branch
-git checkout -b feature/new-feature
+# 1. Criar branch de funcionalidade
+git checkout -b feature/nova-funcionalidade
 
-# 2. Make your changes
-# ... code changes ...
+# 2. Fazer as alterações
+# ... alterações de código ...
 
-# 3. Update documentation (REQUIRED!)
-vim docs/CHANGELOG.md  # Add your changes
+# 3. Atualizar documentação (OBRIGATÓRIO!)
+vim docs/CHANGELOG.md  # Adicionar suas alterações
 
-# 4. Commit everything
+# 4. Commit de tudo
 git add .
-git commit -m "feat: add new feature"
-git commit -m "docs: update changelog for v1.x.x"
+git commit -m "feat: adiciona nova funcionalidade"
+git commit -m "docs: atualiza changelog para v1.x.x"
 
-# 5. Push and PR
-git push origin feature/new-feature
+# 5. Push e Pull Request
+git push origin feature/nova-funcionalidade
 ```
 
 ---
 
-## 📊 Version Numbers
+## 📊 Números de Versão
 
 ```
 MAJOR.MINOR.PATCH
 
-Examples:
-1.0.0 → 1.0.1  (bug fix)
-1.0.1 → 1.1.0  (new feature)
-1.1.0 → 2.0.0  (breaking change)
+Exemplos:
+1.0.0 → 1.0.1  (correção de bug)
+1.0.1 → 1.1.0  (nova funcionalidade)
+1.1.0 → 2.0.0  (mudança significativa)
 ```
 
 ---
 
-## ✅ Pull Request Checklist
+## ✅ Checklist de Pull Request
 
-Before submitting PR:
+Antes de enviar o PR:
 
-- [ ] Code changes committed
-- [ ] `docs/CHANGELOG.md` updated with changes
-- [ ] Version number incremented
-- [ ] `docs/BRANDING.md` updated (if branding changed)
-- [ ] Previous versions preserved (not deleted)
-- [ ] Tests passing (if applicable)
-- [ ] Documentation is clear and helpful
-
----
-
-## 🚨 Common Mistakes
-
-### **❌ DON'T:**
-- Skip documentation updates
-- Delete old changelog entries
-- Replace BRANDING.md (add to it instead)
-- Use vague descriptions
-- Forget version numbers
-
-### **✅ DO:**
-- Update docs with every change
-- Add new versions at top
-- Preserve all history
-- Be specific and clear
-- Follow semantic versioning
+- [ ] Alterações de código commitadas
+- [ ] `docs/CHANGELOG.md` atualizado com as mudanças
+- [ ] Número de versão incrementado
+- [ ] `docs/BRANDING.md` atualizado (se identidade visual mudou)
+- [ ] Versões anteriores preservadas (não deletadas)
+- [ ] Testes passando (se aplicável)
+- [ ] Documentação clara e útil
+- [ ] Conteúdo em português brasileiro
 
 ---
 
-## 📂 Documentation Structure
+## 🚨 Erros Comuns
 
-All documentation lives in `/docs`:
+### **❌ NÃO FAÇA:**
+- Pular atualizações de documentação
+- Deletar entradas antigas do changelog
+- Substituir o BRANDING.md (adicione a ele, não substitua)
+- Usar descrições vagas
+- Esquecer números de versão
+- Usar inglês em conteúdo voltado ao usuário final
+
+### **✅ FAÇA:**
+- Atualizar docs a cada alteração
+- Adicionar novas versões no topo
+- Preservar todo o histórico
+- Ser específico e claro
+- Seguir versionamento semântico
+- Manter todo o conteúdo em português
+
+---
+
+## 📂 Estrutura de Documentação
+
+Toda a documentação fica em `/docs`:
 
 ```
 docs/
-├── README.md        ← How to update docs (read this!)
-├── BRANDING.md      ← Logo, colors, brand specs
-└── CHANGELOG.md     ← Version history (update often!)
+├── README.md        ← Como atualizar os docs (leia primeiro!)
+├── BRANDING.md      ← Logo, cores, especificações da marca
+└── CHANGELOG.md     ← Histórico de versões (atualizar com frequência!)
 ```
 
-**➡️ READ:** `/docs/README.md` for detailed instructions
+**➡️ LEIA:** `/docs/README.md` para instruções detalhadas
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Links Rápidos
 
-- [Documentation Guide](/docs/README.md) ← **START HERE**
-- [Branding Specs](/docs/BRANDING.md)
-- [Project History](/docs/CHANGELOG.md)
-
----
-
-## ❓ Questions?
-
-**Unsure if you should update docs?**
-
-🟢 **YES, UPDATE!**  
-When in doubt, always update. Over-documenting > Under-documenting.
-
-**Which file to update?**
-- Changed design? → `BRANDING.md` + `CHANGELOG.md`
-- Added feature? → `CHANGELOG.md`
-- Fixed bug? → `CHANGELOG.md`
-- New docs? → `docs/README.md` + `CHANGELOG.md`
+- [Guia de Documentação](/docs/README.md) ← **COMECE AQUI**
+- [Especificações da Marca](/docs/BRANDING.md)
+- [Histórico do Projeto](/docs/CHANGELOG.md)
 
 ---
 
-## 🌟 Remember
+## ❓ Dúvidas?
 
-> "Documentation is not an afterthought - it's part of the code."
+**Não sabe se deve atualizar os docs?**
 
-**These rules exist to:**
-- ✅ Preserve project history
-- ✅ Help future contributors
-- ✅ Make AI assistants effective
-- ✅ Track decision-making
-- ✅ Create institutional knowledge
+🟢 **SIM, ATUALIZE!**  
+Na dúvida, sempre atualize. Documentação em excesso > Documentação insuficiente.
 
----
-
-**Thank you for contributing! 🚀**
+**Qual arquivo atualizar?**
+- Mudou o design? → `BRANDING.md` + `CHANGELOG.md`
+- Adicionou funcionalidade? → `CHANGELOG.md`
+- Corrigiu bug? → `CHANGELOG.md`
+- Nova documentação? → `docs/README.md` + `CHANGELOG.md`
 
 ---
 
-**Last Updated:** February 10, 2026  
-**Maintained by:** InSpotGO Team
+## 🌟 Lembre-se
+
+> "Documentação não é um detalhe — é parte do código."
+
+**Essas regras existem para:**
+- ✅ Preservar o histórico do projeto
+- ✅ Ajudar futuros colaboradores
+- ✅ Tornar assistentes de IA mais eficazes
+- ✅ Registrar decisões tomadas
+- ✅ Construir conhecimento institucional
+
+---
+
+**Obrigado por contribuir! 🚀**
+
+---
+
+**Última Atualização:** Fevereiro de 2026  
+**Mantido por:** Equipe AltiVita 🇧🇷
