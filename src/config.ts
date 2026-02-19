@@ -10,7 +10,7 @@ export const SITE_CONFIG = {
   title: 'AltiVita - Encontre o Melhor. Vá com Confiança.',
   description: 'Descubra os melhores produtos de tecnologia, software e ferramentas SaaS. Reviews especializados, comparações e guias de compra para ajudá-lo a tomar decisões confiantes.',
   url: 'https://altivita.com.br',
-  ogImage: '/og-image.jpg', // Criar esta imagem 1200x630px
+  ogImage: '/logo-horizontal.png', // usar logo horizontal como imagem OG padrão até gerar uma OG image 1200x630px
   
   // Branding
   slogan: 'Encontre o Melhor. Vá com Confiança.',
@@ -212,7 +212,7 @@ export const SITE_CONFIG = {
       publisher: {
         '@type': 'Organization',
         name: 'AltiVita',
-        logo: '/logo.png',
+        logo: '/logo-horizontal.png',
         sameAs: [
           // Adicionar URLs de redes sociais quando criadas
         ],
