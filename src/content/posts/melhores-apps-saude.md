@@ -2,7 +2,7 @@
 title: "Melhores Apps de Saúde e Bem-Estar"
 date: 2026-02-18
 category: "Saúde"
-cover: "/imagespost/apps-saude.jpg"
+cover: "/imagespost/apps-saude.svg"
 description: "Aplicativos que ajudam a cuidar da saúde física e mental — recomendações para o Brasil."
 slug: "melhores-apps-saude"
 author: "Equipe AltiVita"

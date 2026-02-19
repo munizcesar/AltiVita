@@ -2,7 +2,7 @@
 title: "Melhores Apps de Produtividade para Brasileiros"
 date: 2026-02-18
 category: "Produtividade"
-cover: "/imagespost/apps-produtividade.jpg"
+cover: "/imagespost/apps-produtividade.svg"
 description: "Aplicativos que aumentam sua produtividade no trabalho, estudos e vida pessoal — recomendados para o Brasil."
 slug: "melhores-apps-produtividade"
 author: "Equipe AltiVita"

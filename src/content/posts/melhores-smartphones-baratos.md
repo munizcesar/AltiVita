@@ -2,7 +2,7 @@
 title: "Melhores Smartphones Baratos: Guia Completo"
 date: 2026-02-18
 category: "Tech"
-cover: "/imagespost/melhores-smartphones-baratos.jpg"
+cover: "/imagespost/melhores-smartphones-baratos.svg"
 description: "Os melhores smartphones acessíveis no Brasil — análise de custo-benefício, desempenho, bateria e câmeras."
 slug: "melhores-smartphones-baratos"
 author: "Equipe AltiVita"

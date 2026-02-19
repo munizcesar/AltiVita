@@ -2,7 +2,7 @@
 title: "Melhores Apps para Aprender Idiomas"
 date: 2026-02-18
 category: "Educação"
-cover: "/imagespost/apps-idiomas.jpg"
+cover: "/imagespost/apps-idiomas.svg"
 description: "Aplicativos recomendados para aprender idiomas — opções gratuitas e pagas com foco no público brasileiro."
 slug: "melhores-apps-idiomas"
 author: "Equipe AltiVita"

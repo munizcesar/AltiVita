@@ -2,7 +2,7 @@
 title: "Guia Completo de Armazenamento em Nuvem"
 date: 2026-02-18
 category: "Serviços"
-cover: "/imagespost/cloud-storage.jpg"
+cover: "/imagespost/cloud-storage.svg"
 description: "Comparativo dos principais serviços de armazenamento em nuvem disponíveis no Brasil."
 slug: "guia-completo-cloud-storage"
 author: "Equipe AltiVita"

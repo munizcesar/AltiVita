@@ -2,7 +2,7 @@
 title: "Melhores Apps de Finanças Pessoais"
 date: 2026-02-18
 category: "Guias"
-cover: "/imagespost/apps-financas.jpg"
+cover: "/imagespost/apps-financas.svg"
 description: "Aplicativos eficientes para controlar suas finanças no Brasil — integrações bancárias, relatórios e segurança."
 slug: "melhores-apps-financas"
 author: "Equipe AltiVita"

@@ -2,7 +2,7 @@
 title: "Guia Completo de Softwares Educacionais"
 date: 2026-02-18
 category: "Educação"
-cover: "/imagespost/softwares-educacionais.jpg"
+cover: "/imagespost/softwares-educacionais.svg"
 description: "As melhores plataformas e softwares para educação no Brasil — recomendações para estudantes e professores."
 slug: "guia-completo-softwares-educacionais"
 author: "Equipe AltiVita"

@@ -2,7 +2,7 @@
 title: "Guia Completo de Smartwatches no Brasil"
 date: 2026-02-18
 category: "Tech"
-cover: "/imagespost/guia-smartwatches.jpg"
+cover: "/imagespost/guia-smartwatches.svg"
 description: "Os melhores smartwatches para diferentes perfis e orçamentos, com foco no mercado brasileiro."
 slug: "guia-completo-smartwatches"
 author: "Equipe AltiVita"

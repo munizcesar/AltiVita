@@ -2,7 +2,7 @@
 title: "Guia Completo de Serviços de Streaming"
 date: 2026-02-18
 category: "Entretenimento"
-cover: "/imagespost/streaming-guide.jpg"
+cover: "/imagespost/streaming-guide.svg"
 description: "Compare os principais serviços de streaming disponíveis no Brasil e escolha o ideal para você."
 slug: "guia-completo-streaming"
 author: "Equipe AltiVita"

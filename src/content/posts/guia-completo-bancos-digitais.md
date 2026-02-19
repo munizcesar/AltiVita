@@ -2,7 +2,7 @@
 title: "Guia Completo de Bancos Digitais no Brasil"
 date: 2026-02-18
 category: "Finanças"
-cover: "/imagespost/bancos-digitais.jpg"
+cover: "/imagespost/bancos-digitais.svg"
 description: "Compare os principais bancos digitais brasileiros e escolha o melhor para seu perfil."
 slug: "guia-completo-bancos-digitais"
 author: "Equipe AltiVita"
