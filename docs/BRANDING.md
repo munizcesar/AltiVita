@@ -1,4 +1,4 @@
-# 🎨 InSpotGO - Branding & Logo Guidelines
+# 🎨 AltiVita - Branding & Logo Guidelines
 
 ## Logo Files
 
@@ -25,14 +25,14 @@
 #### 3. **logo-horizontal.svg** (Full Logo)
 - **Location:** `/public/logo-horizontal.svg`
 - **Size:** 360×100px viewBox (optimized compact)
-- **Design:** Target icon + "InSpotGO" text
+- **Design:** Target icon + "AltiVita" text
 - **Spacing:**
   - Icon position: x=45, y=50
   - Text position: x=95, y=60
   - Gap: 50px (balanced)
 - **Text Colors:**
-  - "InSpot": Primary Blue (#2563EB)
-  - "GO": Orange (#F97316)
+  - "Alti": Azul Marinho (`#0F2A44`) — confiança e autoridade
+  - "Vita": Esmeralda (`#2DBE60`) — energia e vitalidade
 - **Typography:** Inter, SF Pro Display, system-ui
 - **Weight:** 700 (Bold)
 - **Usage:** Header, footer, marketing materials
@@ -75,7 +75,7 @@ Layers (from outside to inside):
 ```astro
 <img 
   src="/logo-horizontal.svg" 
-  alt="InSpotGO" 
+  alt="AltiVita" 
   class="h-8 w-auto"
 />
 ```
@@ -84,7 +84,7 @@ Layers (from outside to inside):
 ```astro
 <img 
   src="/logo-horizontal.svg" 
-  alt="InSpotGO" 
+  alt="AltiVita" 
   class="h-8 mb-4"
 />
 ```
@@ -101,7 +101,8 @@ Layers (from outside to inside):
 ### Current Version (v3.0 - Feb 2026)
 - ✅ Target 3D icon with premium gradients
 - ✅ Horizontal logo with optimized spacing (360px width)
-- ✅ Dual-color text (Blue + Orange)
+- ✅ Dual-color text (Azul Marinho + Verde GO)
+- ✅ Variantes adicionais: Monocromática e Preto + Dourado
 - ✅ Perfect vertical alignment
 - ✅ Professional spacing (50px icon-text gap)
 
@@ -121,9 +122,9 @@ The target/bullseye icon represents:
 - **Premium Quality** - Multiple layers of excellence
 
 ### Name Breakdown
-- **In** = Location/Inside (White)
-- **Spot** = Target/Place (represented by icon)
-- **GO** = Action/Movement (Orange)
+- **Alti** = Alto / Alta Performance — autoridade tecnológica
+- **Vita** = Vitalidade / Ação — energia, crescimento
+- **AltiVita** = Crescimento através da tecnologia confiável
 
 ---
 
@@ -132,7 +133,10 @@ The target/bullseye icon represents:
 ### File Sizes
 - favicon.svg: 3,108 bytes (3.1 KB)
 - logo-icon.svg: 3,108 bytes (3.1 KB)
+- logo-icon-gold.svg: ~2.9 KB
 - logo-horizontal.svg: 3,573 bytes (3.6 KB)
+- logo-horizontal-monochrome.svg: ~3.2 KB
+- logo-horizontal-gold.svg: ~3.4 KB
 
 ### SVG Features
 - Radial gradients (4 types)
@@ -166,11 +170,11 @@ The target/bullseye icon represents:
 ## Deployment
 
 All logo files are committed to:
-- **Repository:** munizcesar/InSpotGO-US
+- **Repository:** munizcesar/AltiVita
 - **Branch:** main
 - **Path:** `/public/`
 - **CDN:** Cloudflare Pages
-- **Live Site:** https://inspotgo.com
+- **Live Site:** https://altivita.com.br
 
 ---
 

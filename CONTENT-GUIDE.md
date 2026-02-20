@@ -1,4 +1,4 @@
-# 📝 Content Creation Guide - InSpotGO
+# 📝 Content Creation Guide - AltiVita
 
 > **Purpose**: Step-by-step guide for creating high-quality, SEO-optimized content that converts.
 
@@ -12,7 +12,7 @@
 2. **Build trust through honest, detailed reviews**
 3. **Rank well in search engines**
 4. **Convert visitors into affiliate clicks**
-5. **Establish InSpotGO as an authority**
+5. **Establish AltiVita as an authority**
 
 ---
 

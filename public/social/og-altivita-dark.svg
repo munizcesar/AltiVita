@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0F2A44"/>
+      <stop offset="1" stop-color="#123B5E"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="o"/>
+      <feMerge>
+        <feMergeNode in="o"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#g)"/>
+
+  <!-- Left-aligned wordmark + icon -->
+  <g transform="translate(70,120)" filter="url(#shadow)">
+    <!-- Icon (three ascending bars) -->
+    <g transform="translate(0,0)">
+      <rect x="0" y="70" width="18" height="120" rx="6" fill="#2DBE60" opacity="0.95"/>
+      <rect x="30" y="40" width="18" height="150" rx="6" fill="#3DD86A" opacity="0.95"/>
+      <rect x="60" y="10" width="18" height="180" rx="6" fill="#71E38E" opacity="0.95"/>
+      <path d="M-6 110 L96 10" stroke="#ffffff22" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Wordmark -->
+    <text x="120" y="130" font-family="Inter, system-ui, Arial" font-size="72" font-weight="800" fill="#FFFFFF">Alti
+      <tspan fill="#2DBE60">Vita</tspan>
+    </text>
+
+    <!-- Tagline -->
+    <text x="120" y="180" font-family="Inter, system-ui, Arial" font-size="26" fill="#D6EEFF" opacity="0.95">Soluções digitais para alta performance</text>
+  </g>
+
+  <!-- Thin separator line -->
+  <rect x="70" y="240" width="1060" height="1" fill="#ffffff22"/>
+
+  <!-- Supporting copy -->
+  <text x="70" y="300" font-family="Inter, system-ui, Arial" font-size="22" fill="#E6F3FF">Reviews, comparativos e guias práticos para o Brasil.</text>
+
+  <!-- Domain badge -->
+  <g transform="translate(900,440)">
+    <rect width="240" height="46" rx="8" fill="#ffffff16"/>
+    <text x="120" y="30" font-family="Inter, system-ui, Arial" font-size="16" fill="#FFFFFF" text-anchor="middle">altivita.com.br</text>
+  </g>
+</svg>

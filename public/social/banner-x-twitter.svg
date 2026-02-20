@@ -44,10 +44,10 @@
   </g>
   
   <!-- Brand Name (CENTERED) -->
-  <text x="750" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="100" font-weight="800" fill="#FFFFFF" filter="url(#textShadow)" text-anchor="middle">InSpotGO</text>
+  <text x="750" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="100" font-weight="800" fill="#FFFFFF" filter="url(#textShadow)" text-anchor="middle">AltiVita</text>
   
   <!-- Tagline -->
-  <text x="750" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="500" fill="#FFFFFF" opacity="0.95" text-anchor="middle">Smart Reviews, Better Choices</text>
+  <text x="750" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="500" fill="#FFFFFF" opacity="0.95" text-anchor="middle">Soluções digitais para alta performance</text>
   
   <!-- Decorative line accent -->
   <line x1="550" y1="295" x2="950" y2="295" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
@@ -73,5 +73,5 @@
   </g>
   
   <!-- URL at bottom right -->
-  <text x="1420" y="470" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="500" fill="#FFFFFF" opacity="0.6" text-anchor="end">inspotgo.com</text>
+  <text x="1420" y="470" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="500" fill="#FFFFFF" opacity="0.6" text-anchor="end">altivita.com.br</text>
 </svg>

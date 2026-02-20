@@ -99,3 +99,8 @@ button{font-family:inherit}
 
 /* Buttons focus refinement */
 .cta-primary:focus-visible,.cta-secondary:focus-visible{box-shadow:0 0 0 3px rgba(30,58,138,0.12);border-radius:8px}
+
+/* Post cover uniform filter to match Altivita palette */
+.post-cover{width:100%;max-width:600px;display:block;margin:0 auto 1.5rem auto;border-radius:12px;position:relative;overflow:hidden}
+.post-cover img{display:block;width:100%;height:auto;filter:grayscale(.05) contrast(1.04) saturate(.95);transform:translateZ(0)}
+.post-cover::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,42,68,0.12),rgba(45,190,96,0.06));mix-blend-mode:overlay;pointer-events:none}

@@ -12,18 +12,18 @@ import { Target, BarChart3, Lightbulb, Flame, CheckCircle2, Search, Users, Refre
       <div class="hero-content">
         <h1>
           <span class="hero-title">
-            <span class="hero-spot">InSpot</span><span class="hero-go">GO</span>
+            <span class="hero-alti">Alti</span><span class="hero-vita">Vita</span>
           </span>
           <span class="hero-slogan">
-            Spot the Best. <span class="go-emphasis">GO</span> Confident.
+            Alta Performance. Vitalidade Digital.
           </span>
         </h1>
         <p class="hero-description">
           {SITE_CONFIG.description}
         </p>
         <div class="hero-cta">
-          <a href="#categories" class="btn btn-primary">Explore Reviews</a>
-          <a href="/about" class="btn btn-outline">Learn More</a>
+          <a href="#categories" class="btn btn-primary">Explorar análises</a>
+          <a href="/about" class="btn btn-outline">Saiba mais</a>
         </div>
       </div>
     </div>
@@ -32,9 +32,9 @@ import { Target, BarChart3, Lightbulb, Flame, CheckCircle2, Search, Users, Refre
   <!-- Categories Section -->
   <section class="categories" id="categories">
     <div class="container">
-      <h2 class="section-title">What We Review</h2>
+      <h2 class="section-title">O que cobrimos</h2>
       <p class="section-subtitle">
-        Expert reviews and guides to help you make confident decisions
+        Curadoria e comparativos para decisões confiantes — foco em soluções digitais e produtividade para o Brasil
       </p>
       
       <div class="categories-grid">
@@ -69,9 +69,9 @@ import { Target, BarChart3, Lightbulb, Flame, CheckCircle2, Search, Users, Refre
   <!-- Featured Content Section -->
   <section class="featured">
     <div class="container">
-      <h2 class="section-title">Coming Soon</h2>
+      <h2 class="section-title">Em destaque</h2>
       <p class="section-subtitle">
-        We're working on comprehensive reviews and buying guides. Check back soon!
+        Guias, comparativos e recomendações práticas com viés corporativo — conte com análises orientadas por resultados.
       </p>
       
       <div class="coming-soon-grid">
@@ -110,36 +110,36 @@ import { Target, BarChart3, Lightbulb, Flame, CheckCircle2, Search, Users, Refre
   <!-- Why Trust Us Section -->
   <section class="trust">
     <div class="container">
-      <h2 class="section-title">Why Trust InSpotGO?</h2>
+      <h2 class="section-title">Por que confiar na AltiVita?</h2>
       
       <div class="trust-grid">
         <div class="trust-item">
           <div class="trust-icon">
             <CheckCircle2 size={56} stroke-width={1.5} />
           </div>
-          <h3>Unbiased Reviews</h3>
-          <p>We provide honest opinions based on thorough research and testing</p>
+          <h3>Análises Independentes</h3>
+          <p>Opiniões técnicas e imparciais — testadas e verificadas com foco em aplicações reais no Brasil.</p>
         </div>
         <div class="trust-item">
           <div class="trust-icon">
             <Search size={56} stroke-width={1.5} />
           </div>
-          <h3>Thorough Research</h3>
-          <p>Every review is backed by extensive research and analysis</p>
+          <h3>Pesquisa Rigorosa</h3>
+          <p>Pesquisas e validações com critérios técnicos aplicáveis ao mercado corporativo brasileiro.</p>
         </div>
         <div class="trust-item">
           <div class="trust-icon">
             <Users size={56} stroke-width={1.5} />
           </div>
-          <h3>User-Focused</h3>
-          <p>We prioritize your needs, not just commission rates</p>
+          <h3>Foco Corporativo</h3>
+          <p>Priorizamos segurança, integração e conformidade com a LGPD para profissionais de alta performance.</p>
         </div>
         <div class="trust-item">
           <div class="trust-icon">
             <RefreshCw size={56} stroke-width={1.5} />
           </div>
-          <h3>Always Updated</h3>
-          <p>We regularly update content to reflect the latest information</p>
+          <h3>Conteúdo Atualizado</h3>
+          <p>Atualizamos guias e comparativos conforme mudanças de mercado e novas versões de ferramentas.</p>
         </div>
       </div>
     </div>
@@ -153,6 +153,38 @@ import { Target, BarChart3, Lightbulb, Flame, CheckCircle2, Search, Users, Refre
       <a href="#categories" class="btn btn-cta">Get Started →</a>
     </div>
   </section>
+
+  <!-- FAQ structured data for rich snippets -->
+  <script type="application/ld+json">{JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que é o projeto Altivita?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O Altivita é uma plataforma de curadoria focada em alta performance, produtividade e soluções tecnológicas (SaaS) para o mercado brasileiro moderno."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais nichos o Altivita aborda?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Focamos em tecnologia aplicada ao dia a dia, ferramentas de inteligência artificial para empresas e estratégias de estilo de vida para profissionais de alta performance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O conteúdo do Altivita é original?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim — todo o conteúdo é desenvolvido sob a ótica da 'Alta Vitalidade', priorizando precisão técnica e relevância para o cenário de negócios do Brasil, com atenção à LGPD."
+        }
+      }
+    ]
+  })}</script>
 </BaseLayout>
 
 <style>

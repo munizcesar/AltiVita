@@ -21,6 +21,11 @@ A tecnologia transformou a educação. Veja as melhores ferramentas para aprende
 | Stoodi                 | Online     | Aulas ao vivo, simulados       | Pago          |
 | Duolingo               | Online     | Idiomas, gamificação           | Gratuito/Pago |
 
+## Prós e Contras
+
+- **Prós:** Ferramentas com analytics, trilhas de aprendizagem e integração com LMS.
+- **Contras:** Custo por usuário e necessidade de suporte técnico para customização.
+
 ## FAQ
 
 **Softwares educacionais são confiáveis?**  
@@ -32,9 +37,9 @@ Sim — há ótimas opções gratuitas como Khan Academy e Google Sala de Aula.
 **Qual plataforma é melhor para ENEM?**  
 Stoodi e plataformas focadas em vestibulares costumam oferecer simulados e planos específicos para ENEM.
 
-## A Perspectiva SF
+## Conclusão
 
-A AltiVita recomenda combinar plataformas e recursos para potencializar o aprendizado.
+Para iniciativas de L&D, escolha plataformas com analytics, integração com RH e suporte a POCs; negocie SLAs e verifique conformidade com dados dos alunos.
 
 ---
 *Conteúdo adaptado ao contexto educacional brasileiro.*

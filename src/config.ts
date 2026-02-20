@@ -8,9 +8,9 @@ export const SITE_CONFIG = {
   // Informações Básicas do Site
   name: 'AltiVita',
   title: 'AltiVita - Encontre o Melhor. Vá com Confiança.',
-  description: 'Descubra os melhores produtos de tecnologia, software e ferramentas SaaS. Reviews especializados, comparações e guias de compra para ajudá-lo a tomar decisões confiantes.',
+  description: 'Soluções Digitais, Produtividade Moderna e Estilo de Vida Tecnológico — curadoria e comparativos para profissionais e empresas no Brasil.',
   url: 'https://altivita.com.br',
-  ogImage: '/og-image.svg', // OG placeholder 1200x630 — substitua por imagem final quando disponível
+  ogImage: '/social/og-altivita-dark.png', // OG padrão (PNG 1200×630). WebP disponível em /social/og-altivita-dark.webp
   
   // Branding
   slogan: 'Encontre o Melhor. Vá com Confiança.',

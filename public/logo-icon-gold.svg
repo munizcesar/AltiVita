@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="AltiVita icon — Gold">
+  <circle cx="100" cy="100" r="96" fill="#0B0B0B"/>
+  <rect x="66" y="110" width="12" height="36" rx="3" fill="#C9A24B" />
+  <rect x="90" y="94" width="12" height="52" rx="3" fill="#C9A24B" />
+  <rect x="114" y="78" width="12" height="68" rx="3" fill="#C9A24B" />
+  <path d="M78 102 L100 80 L122 102" fill="none" stroke="#C9A24B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

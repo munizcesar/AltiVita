@@ -32,9 +32,9 @@ Alguns (Babbel, Busuu) oferecem certificados e cursos estruturados.
 **Preciso pagar para progredir?**  
 A versão gratuita é útil, mas recursos avançados geralmente são pagos.
 
-## A Perspectiva SF
+## Conclusão
 
-A AltiVita recomenda combinar apps com prática real para acelerar a fluência.
+Para programas corporativos, priorize plataformas com relatórios gerenciais e suporte para treinamentos (L&D). Prefira planos com administração centralizada e controles de privacidade (LGPD).
 
 ---
 *Conteúdo adaptado para o usuário brasileiro.*

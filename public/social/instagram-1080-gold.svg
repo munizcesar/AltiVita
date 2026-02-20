@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#F7ECD4"/>
+      <stop offset="100%" stop-color="#0F2A44"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#0F2A44"/>
+
+  <!-- Large centered box with subtle texture -->
+  <rect x="120" y="120" width="840" height="840" rx="36" fill="#0F2A44" stroke="#ffffff06"/>
+
+  <!-- Gold icon -->
+  <g transform="translate(420,300)" filter="url(#glow)">
+    <rect x="0" y="160" width="30" height="220" rx="8" fill="#C9A24B"/>
+    <rect x="56" y="120" width="30" height="260" rx="8" fill="#C9A24B"/>
+    <rect x="112" y="80" width="30" height="300" rx="8" fill="#C9A24B"/>
+  </g>
+
+  <!-- Wordmark (gold accent) -->
+  <text x="540" y="780" font-family="Inter, system-ui, Arial" font-size="64" font-weight="800" fill="#FFFFFF" text-anchor="middle">Alti<tspan fill="#C9A24B">Vita</tspan></text>
+  <text x="540" y="840" font-family="Inter, system-ui, Arial" font-size="22" fill="#F6EEDC" opacity="0.95" text-anchor="middle">Guias, reviews e comparativos confiáveis</text>
+</svg>

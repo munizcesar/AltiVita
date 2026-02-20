@@ -34,6 +34,16 @@ Nossa paleta foi projetada com base em pesquisas de conversão e psicologia das 
 --color-primary-dark: #0A1C2E     /* Azul Muito Escuro */
 --color-primary-light: #1A3D5C    /* Azul Marinho Claro */
 --color-primary-lighter: #2E5A7D  /* Azul Médio */
+
+### Variante Premium (Preto + Dourado minimalista)
+
+```css
+/* Opcional: Preto & Dourado - Uso em aplicações premium */
+--alt-black: #0B0B0B            /* Preto profundo */
+--alt-gold: #C9A24B             /* Dourado minimalista */
+```
+
+**Uso:** Aplicações premium, eventos e materiais de marca quando for necessário um tom luxuoso e discreto.
 ```
 
 **Psicologia**: Confiança, profissionalismo, tecnologia, credibilidade, inteligência  

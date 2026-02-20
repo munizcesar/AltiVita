@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0F2A44"/>
+      <stop offset="1" stop-color="#123B5E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Wordmark with gold accent -->
+  <g transform="translate(80,120)">
+    <!-- Icon (gold bars) -->
+    <g transform="translate(0,0)">
+      <rect x="0" y="70" width="14" height="120" rx="4" fill="#C9A24B"/>
+      <rect x="26" y="50" width="14" height="140" rx="4" fill="#C9A24B"/>
+      <rect x="52" y="30" width="14" height="180" rx="4" fill="#C9A24B"/>
+      <path d="M-4 110 L80 36" stroke="#ffffff22" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Wordmark -->
+    <text x="120" y="130" font-family="Inter, system-ui, Arial" font-size="72" font-weight="800" fill="#FFFFFF">Alti
+      <tspan fill="#C9A24B">Vita</tspan>
+    </text>
+
+    <text x="120" y="180" font-family="Inter, system-ui, Arial" font-size="26" fill="#F6EEDC">Guias, reviews e comparativos confiáveis</text>
+  </g>
+
+  <!-- Right-side CTA box -->
+  <g transform="translate(880,360)">
+    <rect width="210" height="64" rx="10" fill="#ffffff10" stroke="#ffffff18"/>
+    <text x="105" y="38" font-family="Inter, system-ui, Arial" font-size="16" fill="#FFFFFF" text-anchor="middle">Visite altivita.com.br</text>
+  </g>
+</svg>

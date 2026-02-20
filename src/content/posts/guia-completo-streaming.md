@@ -21,6 +21,11 @@ O streaming revolucionou o entretenimento. Veja as melhores opções para o púb
 | Disney+      | Filmes/Séries  | 4 telas           | R$ 27,90       | —            |
 | Globoplay    | Conteúdo BR    | 5 telas           | R$ 24,90       | —            |
 
+## Prós e Contras
+
+- **Prós:** Variedade de conteúdo e funcionalidades de perfil.
+- **Contras:** Diferenças regionais de catálogo e políticas de licenciamento.
+
 ## FAQ
 
 **Qual streaming tem mais filmes?**  
@@ -32,9 +37,9 @@ Depende do serviço; verifique regras de compartilhamento.
 **Streaming consome muita internet?**  
 Sim — vídeos HD/4K demandam maior banda.
 
-## A Perspectiva SF
+## Conclusão
 
-A AltiVita sugere avaliar catálogo e preço antes de assinar. Para famílias, priorize planos com múltiplas telas.
+Para uso corporativo, priorize compatibilidade de dispositivos e licenciamento. Para famílias, equilibre catálogo e custo; evite compartilhar credenciais em ambientes corporativos.
 
 ---
 *Recomendado verificar promoções locais e pacotes combinados.*
