@@ -49,7 +49,7 @@ export const SITE_CONFIG = {
   affiliates: {
     // Amazon Associates Brasil
     amazonBR: {
-      tag: 'SEU-TAG-AMAZON-20', // TODO: Adicionar seu Amazon Associate Tag após aprovação
+      tag: '', // placeholder removido — adicione sua tag quando disponível
       disclaimer: 'Como Associado Amazon, ganhamos com compras qualificadas.',
       enabled: false, // Ativar após aprovação
     },

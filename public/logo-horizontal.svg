@@ -79,6 +79,6 @@
   <!-- TEXT: AltiVita - Positioned closer to icon with better vertical alignment -->
   <text x="95" y="60" font-family="'Inter', 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700" font-size="42" letter-spacing="-1.5">
     <!-- "Alti" in deep navy and "Vita" in emerald -->
-    <tspan fill="#0F2A44">Alti</tspan><tspan fill="#2DBE60">Vita</tspan>
+    <tspan fill="#0F172A">Alti</tspan><tspan fill="#10B981">Vita</tspan>
   </text>
 </svg>

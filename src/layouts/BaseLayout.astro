@@ -38,7 +38,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=3" />
     <link rel="shortcut icon" href="/favicon.ico?v=3" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=3" />
-    <meta name="theme-color" content="#0F2A44" />
+    <meta name="theme-color" content="#0F172A" />
     
     <link rel="canonical" href={canonicalURL} />
     
@@ -125,18 +125,18 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     
     <style is:global>
       :root {
-        /* Cores AltiVita - Azul Marinho + Verde GO */
-        --color-primary: #0F2A44;
+        /* Cores AltiVita — Slate 900 + Esmeralda (Emerald 500) */
+        --color-primary: #0F172A; /* Slate 900 */
         --color-primary-dark: #0A1C2E;
         --color-primary-light: #1A3D5C;
         
-        --color-action: #2DBE60;
-        --color-action-dark: #25A352;
-        --color-action-light: #3DD672;
+        --color-action: #10B981; /* Emerald 500 */
+        --color-action-dark: #0F9B6E;
+        --color-action-light: #34D399;
         
-        --color-success: #2DBE60;
-        --color-success-dark: #25A352;
-        --color-success-light: #3DD672;
+        --color-success: #10B981;
+        --color-success-dark: #0F9B6E;
+        --color-success-light: #34D399;
         
         --color-urgent: #FF6B35;
         --color-urgent-dark: #E85D2C;

@@ -1,5 +1,6 @@
-name = "inspotgo-us"
+name = "altivita"
 compatibility_date = "2026-02-07"
+pages_build_output_dir = "dist"
 
 # Deploy a directory of static assets (the Astro build output)
 assets = { directory = "./dist" }

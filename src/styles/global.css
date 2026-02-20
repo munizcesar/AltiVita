@@ -13,15 +13,19 @@
   line-height: 1.3;
 }
 :root{
-  --color-primary: #0F2A44; /* Azul escuro oficial */
-  --color-accent: #2DBE60;  /* Verde GO oficial */
-  --color-bg: #FFFFFF;      /* Branco oficial */
-  --color-bg-alt: #F4F6F8;  /* Cinza claro oficial */
-  --color-text: #0F2A44;    /* Usando azul escuro para texto principal */
+  --color-primary: #0F172A; /* Slate 900 — texto/brand */
+  --color-accent: #10B981;  /* Emerald 500 — acentos, CTAs */
+  --color-bg: #FFFFFF;      /* Fundo claro */
+  --color-bg-alt: #F4F6F8;  /* Cinza claro */
+  --color-text: #0F172A;    /* Texto principal alinhado ao brand */
   --color-text-muted: #64748B;
-  --color-border: #E2E8F0;
+  --color-border: #E6EDF0;
   --font-stack: 'Inter', system-ui, -apple-system, sans-serif;
 }
+
+/* Atualizar highlight/focus para tons esmeralda */
+:focus-visible{outline:3px solid rgba(16,185,129,0.12);outline-offset:2px}
+.cta-primary:focus-visible,.cta-secondary:focus-visible{box-shadow:0 0 0 3px rgba(16,185,129,0.12);border-radius:8px}
 
 *{box-sizing:border-box}
 html,body{height:100%}

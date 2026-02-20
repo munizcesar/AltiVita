@@ -24,6 +24,7 @@ const {
 } = Astro.props;
 
 const imageURL = new URL(image, Astro.site);
+const fullTitle = `${title} | ${SITE_CONFIG.name} - Tecnologia e Produtividade`;
 
 // Schema.org structured data
 const schema = {
@@ -49,20 +50,19 @@ const schema = {
 ---
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
-<meta name="title" content={title} />
+<title>{fullTitle}</title>
+<meta name="title" content={fullTitle} />
 <meta name="description" content={description} />
 {noindex && <meta name="robots" content="noindex, nofollow" />}
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={article ? 'article' : 'website'} />
 <meta property="og:url" content={canonicalURL} />
-<meta property="og:title" content={title} />
+<meta property="og:title" content={fullTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={imageURL} />
 <meta property="og:site_name" content={SITE_CONFIG.name} />
 <meta property="og:locale" content={SITE_CONFIG.seo.locale} />
-
 {article && publishedTime && (
   <>
     <meta property="article:published_time" content={publishedTime} />
@@ -73,7 +73,7 @@ const schema = {
 <!-- Twitter -->
 <meta property="twitter:card" content={SITE_CONFIG.seo.twitterCard} />
 <meta property="twitter:url" content={canonicalURL} />
-<meta property="twitter:title" content={title} />
+<meta property="twitter:title" content={fullTitle} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={imageURL} />
 {SITE_CONFIG.social.twitter && (

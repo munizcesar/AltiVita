@@ -37,7 +37,7 @@ Empoderar brasileiros a fazer escolhas tecnológicas inteligentes, considerando 
 
 **"Alti"** (Alto, Elevado) + **"Vita"** (Vida) = Crescimento através da tecnologia confiável
 
-- **Cores**: Azul Marinho (#0F2A44) para confiança tech premium + Verde GO (#2DBE60) para ação e crescimento
+- **Cores**: Slate 900 (#0F172A) para confiança tech premium + Esmeralda (Emerald 500, #10B981) para ação e crescimento
 - **Tom**: Profissional, honesto, brasileiro e orientado à ação
 - **Valores**: Transparência radical, expertise tech, foco no mercado brasileiro
 

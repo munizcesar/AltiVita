@@ -1,5 +1,5 @@
-# InSpotGO - Robots.txt
-# https://inspotgo.com/robots.txt
+# AltiVita - Robots.txt
+# https://altivita.com.br/robots.txt
 
 # Allow all crawlers
 User-agent: *
@@ -13,4 +13,4 @@ Disallow: /api/
 # Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://inspotgo.com/sitemap-index.xml
+Sitemap: https://altivita.com.br/sitemap-index.xml

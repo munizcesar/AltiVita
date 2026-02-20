@@ -37,8 +37,8 @@
 ```
 
 **Construção:**
-- **"Alti"** em Azul Marinho Profundo (#0F2A44), peso SemiBold
-- **"Vita"** em Verde GO (#2DBE60), peso Bold
+- **"Alti"** em Slate 900 (#0F172A), peso SemiBold
+- **"Vita"** em Esmeralda (Emerald 500, #10B981), peso Bold
 - **Fundo:** Branco (#FFFFFF) ou transparente
 - **Espaçamento:** Pequeno gap entre "Alti" e "Vita" (0.1em)
 
@@ -52,13 +52,13 @@
 ### Versões Alternativas
 
 #### Monocromática (Uso Especial)
-- **Azul marinho total** (#0F2A44): Para impressão monocromática
+- **Slate 900** (#0F172A): Para impressão monocromática
 - **Branco total** (#FFFFFF): Para fundos escuros
 - **Preto total** (#000000): Para documentos oficiais
 - **Usar apenas quando cores não são possíveis**
 
 #### Favicon/Ícone
-- **Letra "A" estilizada** em Verde (#2DBE60)
+- **Letra "A" estilizada** em Esmeralda (#10B981)
 - **Ou:** Iniciais "AV" em azul marinho + verde
 - **Fundo:** Azul marinho com letra verde (máximo contraste)
 
@@ -131,7 +131,7 @@ Escolhida por:
 
 | Cor | Hex | RGB | Uso |
 |-----|-----|-----|-----|
-| **Azul Marinho** | `#0F2A44` | 15, 42, 68 | Logo "Alti", navegação, títulos |
+| **Slate 900 (Alti)** | `#0F172A` | 15, 23, 42 | Logo "Alti", navegação, títulos |
 | **Azul Muito Escuro** | `#0A1C2E` | 10, 28, 46 | Hover, backgrounds escuros |
 | **Azul Marinho Claro** | `#1A3D5C` | 26, 61, 92 | Backgrounds leves |
 | **Azul Médio** | `#2E5A7D` | 46, 90, 125 | Elementos secundários |
@@ -140,7 +140,7 @@ Escolhida por:
 
 | Cor | Hex | RGB | Uso |
 |-----|-----|-----|-----|
-| **Verde GO** | `#2DBE60` | 45, 190, 96 | Logo "Vita", CTAs, conversão |
+| **Esmeralda (Emerald 500)** | `#10B981` | 16, 185, 129 | Logo "Vita", CTAs, conversão |
 | **Verde Escuro** | `#25A352` | 37, 163, 82 | Hover CTAs |
 | **Verde Claro** | `#3DD672` | 61, 214, 114 | Highlights, badges |
 | **Verde Super Claro** | `#6EE89A` | 110, 232, 154 | Backgrounds sutis |
@@ -181,9 +181,9 @@ Ver [COLOR-GUIDE.md](./COLOR-GUIDE.md) para paleta completa e diretrizes de uso.
 - Phosphor Icons
 
 **Cores:**
-- Azul marinho (#0F2A44) para ícones principais
+- Slate 900 (#0F172A) para ícones principais
 - Cinza (#6B7280) para ícones secundários
-- Verde GO (#2DBE60) para ícones de ação/sucesso
+- Esmeralda (#10B981) para ícones de ação/sucesso
 
 ### Ilustrações
 
@@ -235,7 +235,7 @@ Ver [COLOR-GUIDE.md](./COLOR-GUIDE.md) para paleta completa e diretrizes de uso.
 
 1. **Primário - Verde GO (Ação/Conversão):**
    ```css
-   background: #2DBE60;
+   background: #10B981;
    color: white;
    border-radius: 8px;
    padding: 12px 24px;
@@ -244,7 +244,7 @@ Ver [COLOR-GUIDE.md](./COLOR-GUIDE.md) para paleta completa e diretrizes de uso.
 
 2. **Secundário - Azul Marinho (Informação):**
    ```css
-   background: #0F2A44;
+   background: #0F172A;
    color: white;
    border-radius: 8px;
    padding: 12px 24px;
@@ -254,8 +254,8 @@ Ver [COLOR-GUIDE.md](./COLOR-GUIDE.md) para paleta completa e diretrizes de uso.
 3. **Outline - Azul Marinho:**
    ```css
    background: transparent;
-   border: 2px solid #0F2A44;
-   color: #0F2A44;
+   border: 2px solid #0F172A;
+   color: #0F172A;
    border-radius: 8px;
    ```
 
@@ -290,8 +290,8 @@ Ver [COLOR-GUIDE.md](./COLOR-GUIDE.md) para paleta completa e diretrizes de uso.
 ### Obrigatório Sempre:
 
 1. **Logo dual-color** (Azul Marinho + Verde) em todas as aplicações principais
-2. **Azul Marinho (#0F2A44)** para identidade tech/confiança/navegação
-3. **Verde GO (#2DBE60)** APENAS para CTAs de conversão e badges de destaque
+2. **Slate 900 (#0F172A)** para identidade tech/confiança/navegação
+3. **Esmeralda (#10B981)** APENAS para CTAs de conversão e badges de destaque
 4. **Laranja (#FF6B35)** apenas para promoções urgentes
 5. **Fonte Inter** em todos os textos
 6. **Espaçamento consistente** (múltiplos de 4px ou 8px)

@@ -31,8 +31,8 @@
   - Text position: x=95, y=60
   - Gap: 50px (balanced)
 - **Text Colors:**
-  - "Alti": Azul Marinho (`#0F2A44`) — confiança e autoridade
-  - "Vita": Esmeralda (`#2DBE60`) — energia e vitalidade
+  - "Alti": Slate 900 (`#0F172A`) — confiança e autoridade
+  - "Vita": Esmeralda (`#10B981`) — energia e vitalidade
 - **Typography:** Inter, SF Pro Display, system-ui
 - **Weight:** 700 (Bold)
 - **Usage:** Header, footer, marketing materials

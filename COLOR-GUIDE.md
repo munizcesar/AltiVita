@@ -30,7 +30,7 @@ Nossa paleta foi projetada com base em pesquisas de conversão e psicologia das 
 
 ```css
 /* Azul Marinho Profundo - Cor Principal AltiVita */
---color-primary: #0F2A44          /* Azul Marinho */
+--color-primary: #0F172A          /* Slate 900 (substituído) */
 --color-primary-dark: #0A1C2E     /* Azul Muito Escuro */
 --color-primary-light: #1A3D5C    /* Azul Marinho Claro */
 --color-primary-lighter: #2E5A7D  /* Azul Médio */
@@ -64,7 +64,7 @@ Nossa paleta foi projetada com base em pesquisas de conversão e psicologia das 
 
 ```css
 /* Verde Vibrante GO - Ação e Sucesso */
---color-success: #2DBE60           /* Verde GO */
+--color-success: #10B981           /* Esmeralda (Emerald 500) */
 --color-success-dark: #25A352      /* Verde Escuro */
 --color-success-light: #3DD672     /* Verde Claro */
 --color-success-lighter: #6EE89A   /* Verde Super Claro */
@@ -120,7 +120,7 @@ Nossa paleta foi projetada com base em pesquisas de conversão e psicologia das 
 --color-text-lighter: #9CA3AF     /* Cinza Claro */
 --color-bg: #FFFFFF               /* Branco */
 --color-bg-alt: #F9FAFB           /* Cinza Super Claro BG */
---color-bg-dark: #0F2A44          /* Azul Marinho (modo escuro) */
+--color-bg-dark: #0F172A          /* Slate 900 (modo escuro) */
 --color-border: #E5E7EB           /* Cinza Borda */
 ```
 
@@ -150,8 +150,8 @@ Nossa paleta foi projetada com base em pesquisas de conversão e psicologia das 
 <span class="logo-alti">Alti</span><span class="logo-vita">Vita</span>
 ```
 
-- **"Alti"**: Azul Marinho (#0F2A44) - Confiança Tech Premium
-- **"Vita"**: Verde GO (#2DBE60) - Ação/Crescimento/Vida
+- **"Alti"**: Slate 900 (#0F172A) - Confiança Tech Premium
+- **"Vita"**: Esmeralda (Emerald 500, #10B981) - Ação/Crescimento/Vida
 
 **Por quê dual-color?** 95% das top brands usam 1-2 cores. Cria identidade memorável.
 
@@ -269,10 +269,10 @@ Use para **ofertas limitadas e urgência**:
 ### Hero da Homepage
 
 ```html
-<section class="hero" style="background: linear-gradient(135deg, #0F2A44 0%, #1A3D5C 100%)">
+<section class="hero" style="background: linear-gradient(135deg, #0F172A 0%, #1A3D5C 100%)">
   <h1 style="color: white">
     Encontre o Melhor. 
-    <span style="color: #2DBE60">Vá com Confiança.</span>
+    <span style="color: #10B981">Vá com Confiança.</span>
   </h1>
   <p style="color: #E5E7EB">Reviews especializados para ajudá-lo a fazer a escolha certa</p>
   
@@ -370,13 +370,13 @@ Use para **ofertas limitadas e urgência**:
    - Use azul marinho como cor dominante
 
 3. **Não use azul claro genérico**
-   - Azul marinho (#0F2A44) é premium
+   - Slate 900 (#0F172A) é premium
    - Azul claro (#3B82F6) é genérico
 
 4. **Não faça logo monocromático**
    ```html
    <!-- ❌ MAL -->
-   <span class="logo" style="color: #0F2A44">AltiVita</span>
+   <span class="logo" style="color: #0F172A">AltiVita</span>
    
    <!-- ✅ BOM -->
    <span class="logo-alti">Alti</span><span class="logo-vita">Vita</span>
@@ -476,18 +476,18 @@ Seguindo este guia de cores:
 ```css
 /* Hero gradient - Azul marinho profundo */
 .hero-gradient {
-  background: linear-gradient(135deg, #0F2A44 0%, #1A3D5C 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #1A3D5C 100%);
 }
 
 /* Card hover effect - Verde GO */
 .card:hover {
-  border-color: #2DBE60;
+  border-color: #10B981;
   box-shadow: 0 10px 40px rgba(45, 190, 96, 0.15);
 }
 
 /* Button shine effect */
 .btn-primary:hover {
-  background: linear-gradient(135deg, #2DBE60 0%, #3DD672 100%);
+  background: linear-gradient(135deg, #10B981 0%, #34D399 100%);
   transform: translateY(-2px);
 }
 ```
