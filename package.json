@@ -1,33 +1,43 @@
 {
-  "name": "inspotgo",
+  "name": "altivita",
   "type": "module",
   "version": "2.0.0",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "images:fetch": "node scripts/fetch-and-optimize-images.js",
+    "images:convert": "node scripts/convert-social-svgs.js",
+    "favicon:generate": "node scripts/generate-favicons.js"
   },
   "dependencies": {
-    "astro": "^4.0.0",
     "@astrojs/sitemap": "^3.0.0",
-    "sharp": "^0.33.0",
-    "lucide-astro": "^0.294.0"
+    "astro": "^5.17.2",
+    "lucide-astro": "^0.294.0",
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.3.0",
-    "typescript": "^5.3.0"
+    "@astrojs/language-server": "^2.13.4",
+    "lodash": "^4.17.23",
+    "png-to-ico": "^1.0.7",
+    "typescript": "^5.3.0",
+    "volar-service-yaml": "^0.0.68",
+    "yaml-language-server": "^1.20.0"
   },
-  "description": "InSpotGO - Expert tech product, software, and SaaS reviews. Spot the Best. Go Confident.",
+  "description": "Altivita — Curadoria de alta performance em tecnologia, SaaS e produtividade para o mercado brasileiro.",
   "keywords": [
-    "product reviews",
-    "tech reviews",
-    "software reviews",
-    "saas reviews",
-    "buying guides",
-    "affiliate site"
+    "soluções digitais",
+    "produtividade",
+    "saas",
+    "estilo de vida tecnológico",
+    "comparativos"
   ],
-  "author": "InSpotGO Team",
+  "author": "Equipe Altivita",
   "license": "MIT"
 }

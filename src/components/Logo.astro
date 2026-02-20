@@ -1,26 +1,16 @@
 ---
-// Logo component - AltiVita
+// Inline typographic logo (AltiVita) — uses system font and brand colors
 ---
-<picture class="logo-picture">
-  <source srcset="/logo-horizontal.svg" type="image/svg+xml">
-  <img
-    src="/logo-horizontal.png"
-    alt="AltiVita - Hub de Inteligência Tecnológica"
-    class="logo-desktop"
-    width="200"
-    height="50"
-    loading="eager"
-  >
-</picture>
+<a href="/" class="site-logo" aria-label="AltiVita — Início">
+  <svg width="200" height="50" viewBox="0 0 260 50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AltiVita wordmark">
+    <text x="0" y="36" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="800" font-size="32">
+      <tspan fill="#0F172A">Alti</tspan>
+      <tspan fill="#10B981">Vita</tspan>
+    </text>
+  </svg>
+</a>
 
 <style>
-  .logo-picture {
-    display: inline-block;
-  }
-
-  .logo-desktop {
-    height: 50px;
-    width: auto;
-    display: block;
-  }
+  .site-logo { display: inline-block; line-height: 1; }
+  .site-logo svg { height: 50px; width: auto; display: block; }
 </style>

@@ -1,0 +1,30 @@
+{
+  "lastUpdated": "2026-02-17T21:52:40-03:00",
+  "branch": "fix/audit-force",
+  "lastActions": [
+    "Corrigido uso de disclaimer em src/pages/affiliate-disclosure.astro",
+    "Atualizado 'astro' para ^5.17.2 em package.json",
+    "Executado 'npm install', 'npm run build' e 'npm audit'",
+    "Executado 'npm audit fix --force' (branch de backup criada e push para origin)",
+    "Branch 'fix/audit-force' empurrada para o remoto"
+  ],
+  "buildStatus": "success",
+  "distPath": "dist/",
+  "vulnerabilities": {
+    "total": 3,
+    "severity": "moderate",
+    "details": [
+      "lodash (transitivo via volar-service-yaml / yaml-language-server) - sem correção upstream disponível"
+    ]
+  },
+  "pr": {
+    "created": false,
+    "url": "https://github.com/munizcesar/AltiVita/pull/new/fix/audit-force"
+  },
+  "nextSteps": [
+    "Criar PR a partir de 'fix/audit-force' (link acima) para revisão",
+    "Decidir se substitui/remova 'volar-service-yaml' ou aguarda correção upstream",
+    "Opcional: fornecer token para criar PR via API/CLI automática"
+  ],
+  "notes": "Não há urgência; resto das vulnerabilidades são em dev-deps e não impactam o runtime. Pronto para encerrar por hoje se desejar."
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#core)"/>
+
+  <!-- Centered circular panel -->
+  <circle cx="540" cy="420" r="300" fill="#ffffff10"/>
+
+  <!-- Icon (three bars) -->
+  <g transform="translate(460,300)" filter="url(#glow)">
+    <rect x="0" y="160" width="26" height="220" rx="8" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="46" y="120" width="26" height="260" rx="8" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="92" y="80" width="26" height="300" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="540" y="780" font-family="Inter, system-ui, Arial" font-size="64" font-weight="800" fill="#FFFFFF" text-anchor="middle">AltiVita</text>
+  <text x="540" y="840" font-family="Inter, system-ui, Arial" font-size="22" fill="#E6F3FF" opacity="0.9" text-anchor="middle">Soluções digitais para alta performance</text>
+</svg>

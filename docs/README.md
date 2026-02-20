@@ -1,4 +1,4 @@
-# 📚 InSpotGO Documentation
+# 📚 AltiVita Documentation
 
 > **⚠️ IMPORTANT FOR AI ASSISTANTS & DEVELOPERS:**  
 > This documentation is **LIVING** and must be updated with every significant change.
@@ -261,5 +261,5 @@ These living documents will:
 ---
 
 **Last Updated:** February 10, 2026  
-**Maintained by:** InSpotGO Team  
+**Maintained by:** Equipe AltiVita  
 **Status:** 🟢 Active & Living Documentation

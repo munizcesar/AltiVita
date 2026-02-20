@@ -1,4 +1,4 @@
-# 📝 InSpotGO - Changelog
+# 📝 AltiVita - Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file.
   - Files: `favicon.svg`, `logo-icon.svg`
 
 - **Horizontal Logo** - Full brand lockup
-  - Target icon + "InSpotGO" text
+  - Target icon + "AltiVita" text
   - Dual-color text (Blue + Orange)
   - Optimized spacing (360px width)
   - Perfect vertical alignment
@@ -44,7 +44,7 @@ All notable changes to this project will be documented in this file.
 
 #### Changed
 - Updated `astro.config.mjs`:
-  - Site URL: `https://inspotgo.com` (production)
+  - Site URL: `https://altivita.com.br` (production)
   - Sitemap: Re-enabled with filters
   - Build optimizations maintained
 
@@ -78,8 +78,8 @@ All notable changes to this project will be documented in this file.
 - Output directory: `dist/`
 
 #### URLs
-- Production: `https://inspotgo.com`
-- Staging: `https://inspotgo-us.pages.dev`
+- Production: `https://altivita.com.br`
+- Staging: `https://altivita.pages.dev`
 
 ---
 

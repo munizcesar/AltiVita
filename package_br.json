@@ -1,11 +1,11 @@
 {
-  "name": "inspotgo-br",
+  "name": "altivita-br",
   "type": "module",
   "version": "2.0.0",
   "scripts": {},
   "dependencies": {},
   "devDependencies": {},
-  "description": "Estrutura inicial do package.json para o Brasil",
-  "author": "Equipe Brasil",
+  "description": "Pacote de configuração para Altivita (Brasil)",
+  "author": "Equipe Altivita",
   "license": "MIT"
 }

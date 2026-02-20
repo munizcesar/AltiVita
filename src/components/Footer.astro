@@ -4,43 +4,34 @@
   <div class="container">
     <div class="footer-content">
       <div class="footer-brand">
-        <a href="/" class="footer-logo-link">
-          <picture>
-            <source srcset="/logo-horizontal.svg" type="image/svg+xml">
-            <img src="/logo-horizontal.png" alt="AltiVita" class="footer-logo" height="40">
-          </picture>
-        </a>
+        <img src="/logo-horizontal.svg" alt="AltiVita" class="footer-logo" height="40">
         <p class="footer-tagline">Encontre o Melhor. Vá com Confiança.</p>
-        <p class="footer-copyright">© 2026 Equipe AltiVita — Todos os direitos reservados.</p>
+        <p class="footer-copyright">© 2026 AltiVita — Todos os direitos reservados.</p>
       </div>
-
+      
       <div class="footer-links">
         <div class="footer-column">
-          <h4>Categorias</h4>
-          <a href="/tech">Produtos Tech</a>
-          <a href="/saas">Ferramentas SaaS</a>
+          <h4>Categories</h4>
+          <a href="/tech">Tech Products</a>
+          <a href="/saas">SaaS Tools</a>
           <a href="/software">Software</a>
-          <a href="/guides">Guias</a>
+          <a href="/guides">Guides</a>
         </div>
-
+        
         <div class="footer-column">
-          <h4>Empresa</h4>
-          <a href="/about">Sobre Nós</a>
-          <a href="/contact">Contato</a>
-          <a href="/editorial-policy">Política Editorial</a>
+          <h4>Company</h4>
+          <a href="/about">About Us</a>
+          <a href="/contact">Contact</a>
+          <a href="/editorial-policy">Editorial Policy</a>
         </div>
-
+        
         <div class="footer-column">
           <h4>Legal</h4>
-          <a href="/privacy">Privacidade</a>
-          <a href="/terms">Termos de Uso</a>
-          <a href="/affiliate-disclosure">Divulgação de Afiliados</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
+          <a href="/affiliate-disclosure">Affiliate Disclosure</a>
         </div>
       </div>
-    </div>
-
-    <div class="footer-bottom">
-      <p class="disclaimer">⚠️ Este site contém links de afiliados. Podemos receber comissão por compras feitas através desses links, sem custo adicional para você.</p>
     </div>
   </div>
 </footer>
@@ -52,104 +43,86 @@
     padding: 3rem 0 2rem;
     margin-top: 4rem;
   }
-
+  
   .footer-content {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
     gap: 3rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 1.5rem;
   }
-
+  
   .footer-brand {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
   }
-
-  .footer-logo-link {
-    display: inline-block;
-  }
-
+  
   .footer-logo {
     height: 40px;
     width: auto;
     margin-bottom: 0.5rem;
   }
-
+  
   .footer-tagline {
     color: var(--color-text-light);
     font-size: 0.95rem;
     margin: 0;
   }
-
+  
   .footer-copyright {
-    color: var(--color-text-muted, #64748B);
+    color: var(--color-text-muted);
     font-size: 0.875rem;
     margin: 0;
   }
-
+  
   .footer-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
-
+  
   .footer-column {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
   }
-
+  
   .footer-column h4 {
     color: var(--color-text);
     font-size: 1rem;
     font-weight: 600;
     margin: 0 0 0.5rem 0;
   }
-
+  
   .footer-column a {
     color: var(--color-text-light);
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3s ease;
   }
-
+  
   .footer-column a:hover {
-    color: var(--color-action);
+    color: var(--color-primary);
   }
-
-  .footer-bottom {
-    max-width: 1200px;
-    margin: 2rem auto 0;
-    padding: 1.5rem 1.5rem 0;
-    border-top: 1px solid var(--color-border);
-    text-align: center;
-  }
-
-  .disclaimer {
-    color: var(--color-text-light);
-    font-size: 0.85rem;
-    margin: 0;
-  }
-
+  
   @media (max-width: 768px) {
     .footer {
       padding: 2rem 0 1.5rem;
     }
-
+    
     .footer-content {
       grid-template-columns: 1fr;
       gap: 2rem;
       padding: 0 1rem;
     }
-
+    
     .footer-links {
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
-
+    
     .footer-logo {
       height: 36px;
     }

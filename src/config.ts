@@ -8,9 +8,9 @@ export const SITE_CONFIG = {
   // Informações Básicas do Site
   name: 'AltiVita',
   title: 'AltiVita - Encontre o Melhor. Vá com Confiança.',
-  description: 'Descubra os melhores produtos de tecnologia, software e ferramentas SaaS. Reviews especializados, comparações e guias de compra para ajudá-lo a tomar decisões confiantes.',
+  description: 'Soluções Digitais, Produtividade Moderna e Estilo de Vida Tecnológico — curadoria e comparativos para profissionais e empresas no Brasil.',
   url: 'https://altivita.com.br',
-  ogImage: '/og-image.jpg', // Criar esta imagem 1200x630px
+  ogImage: '/social/og-altivita-dark.png', // OG padrão (PNG 1200×630). WebP disponível em /social/og-altivita-dark.webp
   
   // Branding
   slogan: 'Encontre o Melhor. Vá com Confiança.',
@@ -49,7 +49,7 @@ export const SITE_CONFIG = {
   affiliates: {
     // Amazon Associates Brasil
     amazonBR: {
-      tag: 'SEU-TAG-AMAZON-20', // TODO: Adicionar seu Amazon Associate Tag após aprovação
+      tag: '', // placeholder removido — adicione sua tag quando disponível
       disclaimer: 'Como Associado Amazon, ganhamos com compras qualificadas.',
       enabled: false, // Ativar após aprovação
     },
@@ -212,7 +212,7 @@ export const SITE_CONFIG = {
       publisher: {
         '@type': 'Organization',
         name: 'AltiVita',
-        logo: '/logo.png',
+        logo: '/logo-horizontal.png',
         sameAs: [
           // Adicionar URLs de redes sociais quando criadas
         ],
